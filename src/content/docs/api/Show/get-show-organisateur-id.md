@@ -99,7 +99,7 @@ description: Route pour recevoir un show par son id pour un admin
 
 - **Réponse d'erreur:**
 
-  * **Code:** 404 NOT FOUND <br />
+  - **Code:** 404 NOT FOUND <br />
     **Contenu:** 
     ```json
     { "message": "La ressource n’existe pas." }
