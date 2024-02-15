@@ -1,5 +1,5 @@
 ---
-title: Ajouter un test 🛑
+title: Ajouter un test ✅
 description: Route pour ajouter un test
 ---
 
