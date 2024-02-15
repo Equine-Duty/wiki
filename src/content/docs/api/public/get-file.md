@@ -5,7 +5,7 @@ description: Route pour obtenir un fichier
 
 - **URL**
 
-  /public
+  /public/{nom du path du fichier sans ssrc/public/documents}
 
 - **Méthode:**
 
