@@ -17,7 +17,7 @@ description: Route pour ajouter une classe dans un test
 
 - **Réponse de succès:**
 
-  - **Code:** 201 <br />
+  - **Code:** 200 <br />
     **Contenu:**
     ```json
     {
