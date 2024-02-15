@@ -32,7 +32,6 @@ Route pour s'inscrire à un concours
     ```json
     {
         "id": 1,
-        "class_id": 1,
         "horse_id": 1,
         "rider_id": 1,
         "show_id": 1,
@@ -44,7 +43,9 @@ Route pour s'inscrire à un concours
         "has_payed": false,
         "approved": false,
         "createdAt": "2024-02-08T21:13:53.948Z",
-        "updatedAt": "2024-02-08T21:13:53.948Z"
+        "updatedAt": "2024-02-08T21:13:53.948Z",
+        "class_id": 1,
+        "total": 515
     }
     ```
 

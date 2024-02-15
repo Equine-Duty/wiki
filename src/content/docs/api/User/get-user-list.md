@@ -32,43 +32,41 @@ Route pour recevoir la liste des users avec ou sans filtre.
     **Contenu:** 
     ```json
     {
-      [
-        "0": {
-          "id": 1,
-          "name": "John Doe",
-          "email": "user@email.com",
-          "phone": "123-456-7890",
-          "role": "USER"
-        },
-        "1": {
-          "id": 2,
-          "name": "Mark Admio",
-          "email": "admin@email.com",
-          "phone": "123-456-1234",
-          "role": "ADMIN"
-        },
-        "2": {
-          "id": 3,
-          "name": "Astarion Ancunin",
-          "email": "secretary@email.com",
-          "phone": "123-987-123",
-          "role": "SECRETARY"
-        },
-        "3": {
-          "id": 4,
-          "name": "Lola Sapristi",
-          "email": "organizer@email.com",
-          "phone": "123-987-123",
-          "role": "ORGANIZER"
-        },
-        "pagination": {
-          "total_records": 4,
-          "current_page": 1,
-          "total_pages": 1,
-          "next_page": null,
-          "prev_page": null
-        }
-      ]
+      "0": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "user@email.com",
+        "phone": "123-456-7890",
+        "role": "USER"
+      },
+      "1": {
+        "id": 2,
+        "name": "Mark Admio",
+        "email": "admin@email.com",
+        "phone": "123-456-1234",
+        "role": "ADMIN"
+      },
+      "2": {
+        "id": 3,
+        "name": "Astarion Ancunin",
+        "email": "secretary@email.com",
+        "phone": "123-987-123",
+        "role": "SECRETARY"
+      },
+      "3": {
+        "id": 4,
+        "name": "Lola Sapristi",
+        "email": "organizer@email.com",
+        "phone": "123-987-123",
+        "role": "ORGANIZER"
+      },
+      "pagination": {
+        "total_records": 4,
+        "current_page": 1,
+        "total_pages": 1,
+        "next_page": null,
+        "prev_page": null
+      }
     }
     ```
 

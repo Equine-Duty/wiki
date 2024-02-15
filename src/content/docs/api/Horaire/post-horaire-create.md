@@ -1,6 +1,6 @@
 ---
-title: Obtenir l'horaire ⛔
-description: Route pour obtenir l'horaire
+title: Générer l'horaire ⛔
+description: Route pour générer un horaire.
 ---
 
 - **URL**
@@ -9,11 +9,11 @@ description: Route pour obtenir l'horaire
 
 - **Méthode:**
 
-  `GET`
+  `POST`
 
 - **Réponse de succès:**
   
-  - **Code:** 200 OK<br />
+  - **Code:** 201 Created<br />
     **Contenu:**
     ```json
     {
@@ -117,11 +117,6 @@ description: Route pour obtenir l'horaire
     ```
 
 - **Code d'erreur:**<br>
-  - **Code:** 204 No Content<br />
-    **Contenu:**<br>
-    ```json
-    { "message" : "There is no schedule available for this show"}
-    ```
 
   - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
