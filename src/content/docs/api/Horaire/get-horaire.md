@@ -3,17 +3,17 @@ title: Obtenir l'horaire ⛔
 description: Route pour obtenir l'horaire
 ---
 
-- **URL**
+* **URL**
 
   /api/shows/{showId}/schedule
 
-- **Méthode:**
+* **Méthode:**
 
   `GET`
 
-- **Réponse de succès:**
+* **Réponse de succès:**
   
-  - **Code:** 200 OK<br />
+  * **Code:** 200 OK<br />
     **Contenu:**
     ```json
     {
@@ -116,20 +116,20 @@ description: Route pour obtenir l'horaire
     }
     ```
 
-- **Code d'erreur:**<br>
-  - **Code:** 204 No Content<br />
+* **Code d'erreur:**<br>
+  * **Code:** 204 No Content<br />
     **Contenu:**<br>
     ```json
     { "message" : "There is no schedule available for this show"}
     ```
 
-  - **Code:** 401 UNAUTHORIZED <br />
+  * **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
     ```json
     { "message" : "Non authentifié." }
     ```
 
-  - **Code:** 403 FORBIDDEN <br />
+  * **Code:** 403 FORBIDDEN <br />
     **Contenu:** 
     ```json
     { "message" : "Cette action n’est pas autorisée." }
