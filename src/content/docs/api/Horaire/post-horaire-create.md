@@ -3,17 +3,17 @@ title: Générer l'horaire ⛔
 description: Route pour générer un horaire.
 ---
 
-* **URL**
+- **URL**
 
   /api/shows/{showId}/schedule
 
-* **Méthode:**
+- **Méthode:**
 
   `POST`
 
-* **Réponse de succès:**
+- **Réponse de succès:**
   
-  * **Code:** 201 Created<br />
+  - **Code:** 201 Created<br />
     **Contenu:**
     ```json
     {
@@ -116,15 +116,15 @@ description: Route pour générer un horaire.
     }
     ```
 
-* **Code d'erreur:**<br>
+- **Code d'erreur:**<br>
 
-  * **Code:** 401 UNAUTHORIZED <br />
+  - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
     ```json
     { "message" : "Non authentifié." }
     ```
 
-  * **Code:** 403 FORBIDDEN <br />
+  - **Code:** 403 FORBIDDEN <br />
     **Contenu:** 
     ```json
     { "message" : "Cette action n’est pas autorisée." }
