@@ -1,6 +1,6 @@
 ---
-title: Recevoir les info d'un user ⛔
-description: Route pour recevoir les info d'un user
+title: Recevoir les infos d'un user par son id ✅
+description: Route pour recevoir les infos d'un user
 ---
 
 * **URL**
@@ -14,21 +14,29 @@ description: Route pour recevoir les info d'un user
 * **Réponse de succès:**
   
   * **Code:** 200 <br />
-    **Contenu:** 
+    **Contenu si rôle du jwt est USER:** 
     ```json
     {
       "id": 1,
       "name": "James Cameron",
-      "adress": {
-        "number": 1 ,
-        "street" : "blv laurent",
-        "appartement_number" : null,
-        "postal_code": "3lp 2p0"
-      },
       "email": "james04@gmail.com",
-      "phone": "450-869-9045",
+      "phone": "4508699045",
+      "birthdate": "1992-07-03",
+    }
+    ```
+    
+    **Contenu si rôle du jwt est ADMIN:** 
+    ```json
+    {
+      "id": 1,
+      "name": "James Cameron",
+      "email": "james04@gmail.com",
+      "phone": "4508699045",
       "birthdate": "1992-07-03", 
-      "role": "USER"
+      "role": "USER",
+      "is_verified": true,
+      "createdAt": "2024-02-08T21:13:53.948Z",
+      "updatedAt": "2024-02-08T21:13:53.948Z",
     }
     ```
 
