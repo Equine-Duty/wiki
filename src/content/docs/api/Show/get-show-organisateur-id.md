@@ -3,17 +3,17 @@ title: Recevoir un show par id pour un admin✅
 description: Route pour recevoir un show par son id pour un admin
 ---
 
-* **URL**
+- **URL**
 
   /api/shows/adminShows/{showId}
 
-* **Méthode:**
+- **Méthode:**
   
   `GET`
 
-* **Réponse de succès:**
+- **Réponse de succès:**
   
-  * **Code:** 200 <br />
+  - **Code:** 200 <br />
     **Contenu:** 
     ```json
     {
@@ -97,7 +97,7 @@ description: Route pour recevoir un show par son id pour un admin
     }
     ```
 
-* **Réponse d'erreur:**
+- **Réponse d'erreur:**
 
   * **Code:** 404 NOT FOUND <br />
     **Contenu:** 
