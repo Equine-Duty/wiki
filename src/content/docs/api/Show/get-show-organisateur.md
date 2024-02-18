@@ -1,12 +1,12 @@
 ---
-title: Recevoir touts les shows d'un organisateur✅
+title: Recevoir touts les shows d'un organisateur ✅
 ---
 
-Route pour recevoir touts les shows qu'un administrateur a créé.
+Route pour recevoir touts les shows qu'un organisateur a créé.
 
 **URL**
 
-  /api/shows/showsAdmin
+  /api/shows/adminShows
   
 - **Méthode:**
 

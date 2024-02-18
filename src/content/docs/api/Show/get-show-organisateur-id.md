@@ -1,7 +1,9 @@
 ---
-title: Recevoir un show par id pour un admin✅
-description: Route pour recevoir un show par son id pour un admin
+title: Recevoir un show par id pour un organisateur ✅
+description: Route pour recevoir un show par son id pour un un organisateur.
 ---
+
+Route pour recevoir un show par son id pour un un organisateur.
 
 - **URL**
 
