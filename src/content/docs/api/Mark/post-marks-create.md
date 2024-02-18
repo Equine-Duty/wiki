@@ -46,13 +46,13 @@ description: Route pour ajouter une mark à un test
     { "message": "Non authentifié." }
     ```
 
-    **Code:** 403 UNAUTHORIZED <br />
+    **Code:** 401 UNAUTHORIZED <br />
     **Contenu:**
     ```json
     { "message": "Count of mark_standard is full" }
     ```
 
-    **Code:** 403 UNAUTHORIZED <br />
+    **Code:** 401 UNAUTHORIZED <br />
     **Contenu:**
     ```json
     { "message": "Count of mark_collective is full" }
