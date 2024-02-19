@@ -3,6 +3,8 @@ title: Obtenir l'horaire ⛔
 description: Route pour obtenir l'horaire
 ---
 
+Route pour obtenir l'horaire.
+
 - **URL**
 
   /api/shows/{showId}/schedule
@@ -12,7 +14,8 @@ description: Route pour obtenir l'horaire
   `GET`
 
 - **Paramètre:**<br>
-  `Content-Type: application/json`
+
+  Content-Type: application/json
 
 - **Réponse de succès:**
   

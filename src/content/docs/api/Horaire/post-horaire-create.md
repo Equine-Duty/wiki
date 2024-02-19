@@ -11,6 +11,10 @@ description: Route pour générer un horaire.
 
   `POST`
 
+- **Paramètre:**<br>
+
+  Content-Type: application/json
+
 - **Réponse de succès:**
   
   - **Code:** 201 Created<br />
