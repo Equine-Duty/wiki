@@ -7,7 +7,7 @@ Route pour modifier un test.
 
 - **URL**
 
-  /api/users/{userId}/tests
+  /api/users/{userId}/tests/{testId}
 
 - **Méthode:**
 
