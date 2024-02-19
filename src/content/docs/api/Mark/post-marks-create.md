@@ -5,7 +5,7 @@ description: Route pour ajouter une mark à un test
 
 - **URL**
 
-  /api/users/:userId/test/:testId/mark
+  /api/users/{userId}/test/{testId}/mark
 
 - **Méthode:**
 
