@@ -17,8 +17,6 @@ description: Route pour créer une nouvelle secretaire si le user n'existe pas o
 
   **Requis:**
 
-    Content-Type: application/json
-
     `name=[string]`<br>
     `email=[string]`<br>
     `phone=[string]`<br>
