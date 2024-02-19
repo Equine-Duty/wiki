@@ -11,6 +11,9 @@ description: Route pour obtenir l'horaire
 
   `GET`
 
+- **Paramètre:**<br>
+  `Content-Type: application/json`
+
 - **Réponse de succès:**
   
   - **Code:** 200 OK<br />
