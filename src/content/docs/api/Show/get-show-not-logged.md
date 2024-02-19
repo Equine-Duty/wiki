@@ -1,6 +1,6 @@
 ---
-title: Recevoir un show par id pour un utilisateur non connecté✅
-description: Route pour recevoir un show par id pour un utilisateur non connecté
+title: Recevoir la liste des shows pour un utilisateur non connecté ✅
+description: Route pour recevoir la liste des show pour un utilisateur non connecté
 ---
 
 - **URL**
