@@ -10,13 +10,13 @@ Route pour recevoir un show par son id pour un un organisateur.
   /api/shows/adminShows/{showId}
 
 - **Méthode:**
-  
+
   `GET`
 
 - **Réponse de succès:**
-  
+
   - **Code:** 200 <br />
-    **Contenu:** 
+    **Contenu:**
     ```json
     {
       "id": 1,
@@ -28,9 +28,9 @@ Route pour recevoir un show par son id pour un un organisateur.
         "country": "Canada",
         "zip_code": "12345"
       },
-      "nb_temp_stalls": 7,
-      "nb_permanent_stalls": 5,
-      "nb_tack_stalls": 17,
+      "nb_temp_stalls": 17,
+      "nb_permanent_stalls": 17,
+      "nb_tack_stalls": 20,
       "organizer": {
         "id": 2,
         "name": "Mark Admio",
@@ -39,8 +39,8 @@ Route pour recevoir un show par son id pour un un organisateur.
         "birthdate": "1990-01-01T00:00:00.000Z"
       },
       "path_logo": null,
-      "nb_free_place": 75,
-      "nb_total_place": 149,
+      "nb_free_place": 26,
+      "nb_total_place": 182,
       "show_fees": {
         "id": 1,
         "hay": 50,
@@ -61,7 +61,7 @@ Route pour recevoir un show par son id pour un un organisateur.
       },
       "Shows_Packages": [
         {
-          "id": 1,
+          "id": 1
         }
       ],
       "secretary": {
@@ -72,13 +72,20 @@ Route pour recevoir un show par son id pour un un organisateur.
       },
       "Classes": [
         {
+          "id": 1,
           "name": "Jumping Class A",
-          "Judges_Classes": [
-            {
-              "name": "John Deer",
-              "ring_position": "H"
-            }
-          ]
+          "test": {
+            "id": 1,
+            "name": "Basic Test",
+            "Judges_Tests": [
+              {
+                "id": 1,
+                "name": "John Deer",
+                "ring_position": "H",
+                "ring_name": "Bell Center"
+              }
+            ]
+          }
         }
       ],
       "show_aksed_code": [
@@ -86,33 +93,34 @@ Route pour recevoir un show par son id pour un un organisateur.
           "asked_code_name": "ABC123"
         }
       ],
-      "recognized_show": false,
+      "recognized_show": true,
       "rules": "Hello I am the rules!",
-      "start_date": "2024-08-12T17:39:40.464Z",
-      "end_date": "2026-01-12T15:36:42.761Z",
+      "start_date": "2023-07-08T21:14:58.025Z",
+      "end_date": "2024-06-25T01:23:21.833Z",
       "is_vaccination_proof_required": true,
-      "is_coggins_proof_required": false,
-      "is_published": true,
-      "inscription_start_date": "2024-08-30T13:41:16.398Z",
-      "inscription_end_date": "2026-12-19T00:26:41.230Z",
-      "inscription_end_late_date": "2026-08-01T03:48:56.342Z"
+      "is_coggins_proof_required": true,
+      "is_published": false,
+      "inscription_start_date": "2024-02-25T05:26:06.649Z",
+      "inscription_end_date": "2025-05-12T23:33:07.092Z",
+      "inscription_end_late_date": "2026-08-08T10:34:53.099Z"
     }
     ```
 
 - **Réponse d'erreur:**
 
   - **Code:** 404 NOT FOUND <br />
-    **Contenu:** 
+    **Contenu:**
     ```json
     { "message": "La ressource n’existe pas." }
     ```
+
 - **Code:** 401 UNAUTHORIZED <br />
-	**CONTENU**: 
-	```json
-	{ "message" : "Unauthorized" }
-  ```   
+  **CONTENU**:
+  ```json
+  { "message": "Unauthorized" }
+  ```
 - **Code:** 403 FORBIDDEN <br />
-	**CONTENU**: 
-	```json
-	{ "message" : "Forbidden"}
+  **CONTENU**:
+  ```json
+  { "message": "Forbidden" }
   ```
