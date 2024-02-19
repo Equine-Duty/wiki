@@ -1,7 +1,9 @@
 ---
-title: Recevoir un show par id pour un admin✅
-description: Route pour recevoir un show par son id pour un admin
+title: Recevoir un show par id pour un organisateur ✅
+description: Route pour recevoir un show par son id pour un un organisateur.
 ---
+
+Route pour recevoir un show par son id pour un un organisateur.
 
 - **URL**
 
@@ -104,12 +106,12 @@ description: Route pour recevoir un show par son id pour un admin
     ```json
     { "message": "La ressource n’existe pas." }
     ```
-- **CODE** 401 UNAUTHORIZED <br />
+- **Code:** 401 UNAUTHORIZED <br />
 	**CONTENU**: 
 	```json
 	{ "message" : "Unauthorized" }
   ```   
-- **CODE** 403 FORBIDDEN <br />
+- **Code:** 403 FORBIDDEN <br />
 	**CONTENU**: 
 	```json
 	{ "message" : "Forbidden"}
