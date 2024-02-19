@@ -46,7 +46,7 @@ description: Route pour obtenir des juges par une classe depuis son ID
     { "message": "Cette action n’est pas autorisée." }
     ```
 
-    * **Code:** 404 NOT FOUND <br />
+    * **Code:** 400 BAD REQUEST <br />
     **Contenu:** 
     ```json
     { "message": "The show does not own the classe" }
