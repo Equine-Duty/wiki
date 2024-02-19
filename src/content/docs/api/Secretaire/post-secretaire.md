@@ -13,7 +13,7 @@ description: Route pour créer une nouvelle secretaire si le user n'existe pas o
 
 * **Paramètres:**
 
-  Content-Type: application/x-www-form-urlencoded
+  Content-Type: application/json
 
   **Requis:**
 
