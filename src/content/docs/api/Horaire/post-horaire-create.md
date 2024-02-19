@@ -3,6 +3,8 @@ title: Générer l'horaire ⛔
 description: Route pour générer un horaire.
 ---
 
+Route pour générer un horaire.
+
 - **URL**
 
   /api/shows/{showId}/schedule

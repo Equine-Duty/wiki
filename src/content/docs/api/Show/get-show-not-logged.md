@@ -24,9 +24,6 @@ description: Route pour recevoir la liste des show pour un utilisateur non conne
           "start_date": "2023-01-21T13:29:37.056Z",
           "end_date": "2026-12-12T08:48:17.163Z",
           "nb_free_place": 90,
-          "organizer": {
-            "name": "Mark Admio"
-          },
           "address": {
             "city": "Montreal",
             "zip_code": "12345"
@@ -38,9 +35,6 @@ description: Route pour recevoir la liste des show pour un utilisateur non conne
           "start_date": "2023-01-24T08:10:07.219Z",
           "end_date": "2024-04-10T22:44:16.360Z",
           "nb_free_place": 96,
-          "organizer": {
-            "name": "Mark Admio"
-          },
           "address": {
             "city": "Montreal",
             "zip_code": "12345"
