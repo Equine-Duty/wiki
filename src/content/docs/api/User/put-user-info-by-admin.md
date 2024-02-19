@@ -24,11 +24,12 @@ description: Modifier les infos d'un user par un admin
     `phone=[string]`<br>
     `role=[string (USER, ADMIN, SECRETARY, ORGANIZER)]`<br>
     `is_verified=[boolean]`<br>
+    `is_active=[boolean]`<br>
 
 
 * **Réponse de succès:**
   
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
     **Contenu:** 
     ```json
     {
@@ -39,6 +40,7 @@ description: Modifier les infos d'un user par un admin
       "email": "Bob@email.com",
       "role": "USER",
       "is_verified": true,
+      "is_active": true,
     }
     ```
 
