@@ -1,5 +1,5 @@
 ---
-title: Recevoir la liste des inscriptions d'un user ⛔
+title: Recevoir la liste des inscriptions d'un user ✅
 description: Route pour recevoir la liste des inscriptions d'un user.
 ---
 
