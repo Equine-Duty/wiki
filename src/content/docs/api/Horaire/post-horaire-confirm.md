@@ -15,7 +15,7 @@ Route pour confirmer un horaire.
 
 - **Paramètre:**<br>
 
-  Content-Type: `application/json`
+  Content-Type: application/json
 
   Data à renvoyer est le même JSON que lors de la génération avec les modifications (si des modifications était nécessaire)<br>
   ```json
@@ -121,7 +121,7 @@ Route pour confirmer un horaire.
 
 - **Réponse de succès:**
   
-  - **Code:** 200 OK<br />
+  - **Code:** 201 Created<br />
     **Contenu:**
     ```json
     { "message" : "Votre horaire est confirmé." }

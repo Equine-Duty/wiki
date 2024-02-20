@@ -5,7 +5,7 @@ description: Route pour modifier un cheval à un user
 
 * **URL**
 
-  /api/users/{userId}/horses
+  /api/users/{userId}/horses/{horseId}
 
 * **Méthode:**
   
