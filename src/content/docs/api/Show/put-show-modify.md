@@ -15,39 +15,46 @@ description: Route pour modifier un show.
 
   Content-Type: form-data
 
-  **Requis:**
- 
-    `id=[string]`<br>
+
+  **Requis pour show n'est pas publié:**
+
     `name=[string]`<br>
-    `emplacement_id=[int]`<br>
-    `organizer_id=[int]`<br>
-    `is_late_registration=[boolean]`<br>
-    `nb_total_place=[int]`<br>
-    `nb_free_place=[int]`<br>
-    `competitions_fee_id=[int]`<br>
-    `admin_fee_id=[int]`<br>
-    `is_quebec_recognized=[boolean]`<br>
+    `address_id=[int]`<br>
+    `nb_total_place=[boolean]`<br>
+    `nb_temp_stalls=[boolean]`<br>
+    `nb_tack_stalls=[boolean]`<br>
+    `nb_permanent_stalls=[boolean]`<br>
+    `recognized_show=[int]`<br>
     `rules=[string]`<br>
     `start_date=[string]`<br>
     `end_date=[string]`<br>
-    `start_inscription_date=[string]`<br>
-    `end_inscription_date=[string]`<br>
-    `start_late_inscription_date=[string]`<br>
-    `admin=[int]`<br>
-    `late=[int]`<br>
-    `annulation=[int]`<br>
-    `terrain=[int]`<br>
-    `medizl=[int]`<br>
-    `equipement_location=[int]`<br>
+    `inscription_end_date=[string]`<br>
+    `inscription_end_late_date=[string]`<br>
+    `inscription_start_date=[string]`<br>
+    `asked_codes=[string]`<br>
+    `is_vaccination_proof_required=[boolean]`<br>
+    `is_coggins_proof_required=[boolean]`<br>
+    `is_published=[boolean]`<br>
     `hay=[int]`<br>
-    `chippings=[int]`<br>
+    `shaving=[int]`<br>
     `temp_stall_per_day=[int]`<br>
-    `inside_stall_per_day=[int]`<br>
-    `drug_tese=[int]`<br>
+    `permanent_stall_per_day=[int]`<br>
+    `tack_stall_per_day=[int]`<br>
+    `drug_test=[int]`<br>
+    `administration=[int]`<br>
+    `late_inscription=[int]`<br>
+    `cancel_inscription=[int]`<br>
+    `ground=[int]`<br>
+    `paramedics=[int]`<br>
+    `camper_ground_rental=[int]`<br>
+    `show_logo=[.png|.jpeg]`<br>
 
-  **Optionnel**
-    `show_logo=[.pdf|.png|.jpeg]`<br>
-    `end_late_inscription_date=[string]`<br>
+  **Requis pour show publié:** </br>
+    `nb_total_place=[int]`<br>
+    `nb_temp_stalls=[int]`<br>
+    `nb_tack_stalls=[int]`<br>
+    `nb_permanent_stalls=[int]`<br>
+    `rules=[string]`<br>
    
 * **Réponse de succès:**
   
@@ -55,8 +62,10 @@ description: Route pour modifier un show.
     **Contenu:** 
     ```json
     {
-      "id": 1,
-      "name": "<nom du concours>"
+      "data": {
+        "id": 1,
+        "name": "<nom du concours>"
+      }
     }
     ```
 

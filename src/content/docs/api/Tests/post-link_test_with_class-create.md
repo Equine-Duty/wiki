@@ -5,7 +5,7 @@ description: Route pour ajouter une classe dans un test
 
 - **URL**
 
-  /api/users/:userId/tests/:testId/class/:classId
+  /api/users/{userId}/tests/{testId}/class/{classId}
 
 - **Méthode:**
 
