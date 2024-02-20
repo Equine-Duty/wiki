@@ -6,9 +6,9 @@ Route pour recevoir la liste des users avec ou sans filtre.
 
 * **URL**
 
-  /api/users
-  /api/users?`<Variable>=<Value>`
-  /api/users?`<Variable>=<Value>&page=<Page_Number>`
+  /api/users<br>
+  /api/users?`<Variable>=<Value>`<br>
+  /api/users?`<Variable>=<Value>&page=<Page_Number>`<br>
 
 * **Méthode:**
   
