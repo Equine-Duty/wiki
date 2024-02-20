@@ -40,6 +40,12 @@ Route pour recevoir la liste des users avec ou sans filtre.
 
 - **Réponse d'erreur:**
 
+  - **Code:** 204 No Content <br />
+    **Contenu:** 
+    ```json
+    { "message": "Non authentifié." }
+    ```
+
   - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
     ```json
