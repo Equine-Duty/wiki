@@ -22,7 +22,7 @@ Route pour recevoir la liste des users avec ou sans filtre.
         "inscriptions": [
             {
                 "id": 1,
-                "invoiceId": "294yocds839yr",
+                "invoice_number": "294yocds839yr",
                 "show": {
                     "id": 1,
                     "name": "Regional Quebec",
@@ -41,10 +41,6 @@ Route pour recevoir la liste des users avec ou sans filtre.
 - **Réponse d'erreur:**
 
   - **Code:** 204 No Content <br />
-    **Contenu:** 
-    ```json
-    { "message": "Non authentifié." }
-    ```
 
   - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
