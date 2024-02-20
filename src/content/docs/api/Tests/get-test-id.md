@@ -29,7 +29,7 @@ Route pour recevoir un test par son id avec les marks associés.
         "nb_collectives_marks": 25,
         "total_points_possibility": 50,
         "user_id": 2,
-        "marks": [
+        "Marks": [
             {
                 "id": 1,
                 "move_name": "JUMP",
