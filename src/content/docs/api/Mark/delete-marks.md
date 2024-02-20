@@ -7,7 +7,7 @@ Route pour supprimer une mark.
 
 - **URL**
 
-  /api/users/{userId}/marks/{markId}
+  /api/users/{userId}/test/{testId}/marks/{markId}
 
 - **Méthode:**
 

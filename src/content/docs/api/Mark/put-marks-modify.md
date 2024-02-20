@@ -7,7 +7,7 @@ Route pour modifier une mark.
 
 - **URL**
 
-    /api/users/{userId}/marks/{marksId}
+    /api/users/{userId}/test/{testId}/marks/{marksId}
 
 - **Méthode:**
 
