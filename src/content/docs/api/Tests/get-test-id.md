@@ -7,7 +7,7 @@ Route pour recevoir un test par son id avec les marks associés.
 
 - **URL**
 
-  /api/tests/{testId}
+  /api/users/{userId}/tests/{testId}
 
 - **Méthode:**
 
