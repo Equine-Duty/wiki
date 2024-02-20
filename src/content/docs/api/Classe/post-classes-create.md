@@ -25,7 +25,7 @@ description: Route pour créer une nouvelle classe
     `price_entry=[int]`<br>
     `level_type=[string]`<br>
     `is_test_of_choice=[bool]`<br>
-    `test_id`=[int]
+    `test_id=[int]`
    
 * **Réponse de succès:**
   
