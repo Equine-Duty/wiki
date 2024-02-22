@@ -5,7 +5,7 @@ description: Modifier les infos d'un user par un admin
 
 * **URL**
 
-  /api/users/{userId}/profile
+  /api/users/{userId}
 
 * **Méthode:**
   
