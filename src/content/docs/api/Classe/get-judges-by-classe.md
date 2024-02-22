@@ -15,24 +15,23 @@ description: Route pour obtenir des juges par une classe depuis son ID
   - **Code:** 200 <br />
     **Contenu:**
     ```json
-    [
     {
-        "id": 1,
-        "class_id": 1,
-        "name": "John Deer",
-        "ring_position": "H",
-        "createdAt": "2024-02-15T17:20:38.330Z",
-        "updatedAt": "2024-02-15T17:20:38.330Z"
+      [
+        {
+          "id": 1,
+          "class_id": 1,
+          "name": "John Deer",
+          "ring_position": "H",
+          "createdAt": "2024-02-15T17:20:38.330Z",
+          "updatedAt": "2024-02-15T17:20:38.330Z"
+        }
+      ]
     }
-    ]
     ```
- - **Code:** 204 <br />
-    **Contenu:**
-    ```json
-    [
-    ]
 
 * **Réponse d'erreur:**
+
+  - **Code:** 204 No Content<br />
 
   * **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
