@@ -1,5 +1,5 @@
 ---
-title:  15 Février
+title:  22 Février
 ---
 
 # Ordre du jour
@@ -38,6 +38,7 @@ title:  15 Février
 ### API
 - Horaire
 - Scores
+- Mode brouillon
   
 ### Admin
 - L'envoie des scrores aux organisations
