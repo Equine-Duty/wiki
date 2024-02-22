@@ -1,9 +1,9 @@
 ---
-title: Modifier un test ⛔
-description: Route pour modifier un test
+title: Modifier un test + marks ⛔
+description: Route pour modifier un test et ses marks
 ---
 
-Route pour modifier un test.
+Route pour modifier un test et ses marks.
 
 - **URL**
 
@@ -25,7 +25,7 @@ Route pour modifier un test.
   `total_points_possibility=[int]`<br>
   `nb_standard_marks=[int]`<br>
   `nb_collectives_marks=[int]`<br>
-  `marks=[JsonObjectArray]`<br>
+  `Marks=[JsonObjectArray]`<br>
   - `move_name=[string]`
   - `note=[int]`
   - `coef_points=[double]`
