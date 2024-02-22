@@ -3,6 +3,8 @@ title: Obtenir des juges par classses ✅
 description: Route pour obtenir des juges par une classe depuis son ID
 ---
 
+Route pour obtenir des juges par une classe depuis son id
+
 - **URL**
 
   /api/shows/{showId}/classes/{classId}/judges
