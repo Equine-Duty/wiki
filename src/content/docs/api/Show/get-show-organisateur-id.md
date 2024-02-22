@@ -72,6 +72,7 @@ Route pour recevoir un show par son id pour un un organisateur.
       },
       "Classes": [
         {
+          "id": 1,
           "name": "Jumping Class A",
           "Judges_Classes": [
             {
