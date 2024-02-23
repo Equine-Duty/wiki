@@ -25,22 +25,31 @@ Route pour recevoir toutes les inscriptions d'un show.
   **Contenu:** <br>
   ```json
   {
-    "inscriptions": [
+    [
       {
         "id": 1,
         "horse_id": 1,
         "rider_id": 1,
         "show_id": 1,
         "user_id": 1,
-        "no_fei": null,
-        "nb_stalls": 45,
-        "nb_hay_bale": 30,
-        "nb_shaving_bags": 43,
+        "no_fei": "FEI123",
+        "nb_stalls": 2,
+        "nb_hay_bale": 5,
+        "nb_shaving_bags": 3,
         "has_payed": false,
+        "invoice_number": null,
         "approved": false,
-        "class_id": 1,
-        "total": 515
-      }
+        "createdAt": "2024-02-22T03:14:50.614Z",
+        "updatedAt": "2024-02-22T03:14:50.614Z",
+        "Classes_Inscriptions": [
+          {
+            "class_id": 1,
+            "class": {
+              "name": "Jumping Class A"
+            }
+          }
+        ]
+      },
       ...
     ]
   }
