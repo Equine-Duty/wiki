@@ -1,5 +1,5 @@
 ---
-title: Recevoir les inscriptions d'un show ⛔
+title: Recevoir les inscriptions d'un show ✅
 description: Route pour recevoir toutes les inscriptions d'un show.
 ---
 
