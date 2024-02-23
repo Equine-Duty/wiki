@@ -53,7 +53,8 @@ Route pour recevoir toutes les inscriptions d'un show.
           {
             "code_name": "quebec_equestre",
             "code_value": "1342346"
-          }
+          },
+          ...
         ],
         "user": {
           "name": "John Doe"
