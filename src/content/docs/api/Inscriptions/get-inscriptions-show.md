@@ -7,11 +7,18 @@ Route pour recevoir toutes les inscriptions d'un show.
 
 - **URL**
 
-  /api/shows/{showId}/inscriptions
+  /api/shows/{showId}/inscriptions <br>
+  /api/shows/{showId}/inscriptions?<variable=value> <br>
 
 - **Méthode:**
 
   `GET`
+
+- **Paramètres:**
+
+  filtre :
+
+  - Variable: `has_payed`
 
 - **Réponse de succès:**
   - **Code:** 200 OK <br>
