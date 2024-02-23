@@ -39,8 +39,8 @@ Route pour recevoir toutes les inscriptions d'un show.
         "has_payed": false,
         "invoice_number": null,
         "approved": false,
-        "createdAt": "2024-02-22T03:14:50.614Z",
-        "updatedAt": "2024-02-22T03:14:50.614Z",
+        "createdAt": "2024-02-23T16:13:51.608Z",
+        "updatedAt": "2024-02-23T16:13:51.608Z",
         "Classes_Inscriptions": [
           {
             "class_id": 1,
@@ -48,7 +48,22 @@ Route pour recevoir toutes les inscriptions d'un show.
               "name": "Jumping Class A"
             }
           }
-        ]
+        ],
+        "Inscriptions_Asked_Codes": [
+          {
+            "code_name": "quebec_equestre",
+            "code_value": "1342346"
+          }
+        ],
+        "user": {
+          "name": "John Doe"
+        },
+        "rider": {
+          "name": "Jane Doe"
+        },
+        "horse": {
+          "name": "Thunder"
+        }
       },
       ...
     ]
