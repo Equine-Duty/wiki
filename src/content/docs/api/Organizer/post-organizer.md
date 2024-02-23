@@ -22,6 +22,7 @@ description: Route pour créer un nouveau organisateur. Si le user n'existe pas 
     `name=[string]`<br>
     `email=[string]`<br>
     `phone=[string]`<br>
+    `remaining_shows=[integer]`<br>
    
 * **Réponse de succès:**
   

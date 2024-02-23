@@ -25,6 +25,10 @@ description: Modifier les infos d'un user par un admin
     `role=[string (USER, ADMIN, SECRETARY, ORGANIZER)]`<br>
     `is_verified=[boolean]`<br>
     `is_active=[boolean]`<br>
+    
+  **Optionnel:**
+  
+    `remaining_shows=[integer]`<br>
 
 
 * **Réponse de succès:**
