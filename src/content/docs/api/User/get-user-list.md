@@ -59,7 +59,8 @@ Route pour recevoir la liste des users avec ou sans filtre.
           "name": "Lola Sapristi",
           "email": "organizer@email.com",
           "phone": "123-987-123",
-          "role": "ORGANIZER"
+          "role": "ORGANIZER",
+          "remaining_show": 5
         }
       ],
       "pagination": {
