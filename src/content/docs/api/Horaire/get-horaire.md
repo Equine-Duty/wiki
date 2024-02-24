@@ -19,44 +19,41 @@ Route pour obtenir l'horaire imprimable.
 
 - **Type**  
   ```typescript
-  type DataReponse = {
-      id: number;
-      rings: Ring[]
-  }
+  type Schedule = {
+    id: number;
+    rings: Ring[];
+  };
 
   type Judge = {
-      name: string;
-      position: string;
+    name: string;
+    position: string;
   };
 
   type Rider = {
-      time_start: string;
-      number: number;
-      name: string;
-      horse_name: string;
+    time_start: string;
+    number: string;
+    name: string;
+    horse_name: string;
   };
 
   type Break = {
     time_start: string;
     break_type: "LUNCH" | "BREAK" | "CHANGE RING";
-    reason?: string; // Limiter le nombre de charactère ici
+    reason?: string;
   };
 
   type RidingClass = {
-      number: string;
-      name: string;
-      judges: Judge[];
-      test: string;
-      riders: (Rider | Break)[];
+    number: string;
+    name: string;
+    judges: Judge[];
+    test: string;
+    riders: (Rider | Break)[];
   };
 
   type Ring = {
-      id: number;
-      rings: {
-          name: string;
-          number: string;
-          classes: RidingClass[];
-      };
+    name: string;
+    number: string;
+    classes: RidingClass[];
   };
   ```
 
