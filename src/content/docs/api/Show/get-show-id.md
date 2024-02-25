@@ -44,7 +44,7 @@ description: Route pour recevoir un show par son id
       "nb_total_place": 91,
       "show_fees": {
         "hay": 50,
-        "shaving": 30,
+        "chipping": 30,
         "permanent_stall_per_day": 15,
         "temp_stall_per_day": 10,
         "tack_stall_per_day": 5,

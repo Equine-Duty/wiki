@@ -35,7 +35,7 @@ Route pour recevoir toutes les inscriptions d'un show.
         "no_fei": "FEI123",
         "nb_stalls": 2,
         "nb_hay_bale": 5,
-        "nb_shaving_bags": 3,
+        "nb_chipping_bags": 3,
         "has_payed": false,
         "invoice_number": null,
         "approved": false,

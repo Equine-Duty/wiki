@@ -35,7 +35,7 @@ description: Route pour modifier un show.
     `is_vaccination_proof_required=[boolean]`<br>
     `is_coggins_proof_required=[boolean]`<br>
     `hay=[int]`<br>
-    `shaving=[int]`<br>
+    `chipping=[int]`<br>
     `temp_stall_per_day=[int]`<br>
     `permanent_stall_per_day=[int]`<br>
     `tack_stall_per_day=[int]`<br>

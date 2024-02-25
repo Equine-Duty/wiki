@@ -23,7 +23,7 @@ Route pour s'inscrire à un concours
     `nb_stalls=[int]`<br>
     `nb_tack_stalls=[int]`<br>
     `nb_hay_bale=[int]`<br> 
-    `nb_shaving_bags=[int]`<br>
+    `nb_chipping_bags=[int]`<br>
     `show_asked_codes=[object or null]`<br>
 
     **Exemple:**
@@ -34,7 +34,7 @@ Route pour s'inscrire à un concours
         "nb_stalls": 45,
         "nb_tack_stalls: 1"
         "nb_hay_bale": 30,
-        "nb_shaving_bags": 43,
+        "nb_chipping_bags": 43,
         "show_asked_codes": {
             "quebec_equestre": "123456789",
             "no_montreal": "qwerty123",
@@ -57,7 +57,7 @@ Route pour s'inscrire à un concours
         "nb_stalls": 45,
         "nb_tack_stalls": 1,
         "nb_hay_bale": 30,
-        "nb_shaving_bags": 43,
+        "nb_chipping_bags": 43,
         "has_payed": false,
         "approved": false,
         "createdAt": "2024-02-08T21:13:53.948Z",

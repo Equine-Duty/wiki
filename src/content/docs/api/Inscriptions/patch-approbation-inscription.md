@@ -31,7 +31,7 @@ Route pour modifier l'approbation d'une inscription à une classe
       "no_fei": "FEI123",
       "nb_stalls": 2,
       "nb_hay_bale": 5,
-      "nb_shaving_bags": 3,
+      "nb_chipping_bags": 3,
       "has_payed": true,
       "approved": true,
       "createdAt": "2024-02-15T22:26:12.298Z",

@@ -30,7 +30,7 @@ description: Route pour céer un show
     `nb_free_permanent_stalls=[int]`<br>
     `nb_free_tack_stalls=[int]`<br>
     `hay=[int]`<br>
-    `shaving=[int]`<br>
+    `chipping=[int]`<br>
     `temp_stall_per_day=[int]`<br>
     `permanent_stall_per_day=[int]`<br>
     `tack_stall_per_day=[int]`<br>
