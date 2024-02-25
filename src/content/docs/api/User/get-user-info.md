@@ -37,6 +37,7 @@ description: Route pour recevoir les infos d'un user
       "is_verified": true,
       "createdAt": "2024-02-08T21:13:53.948Z",
       "updatedAt": "2024-02-08T21:13:53.948Z",
+      "stripe_connected": true,
     }
     ```
 
@@ -52,7 +53,8 @@ description: Route pour recevoir les infos d'un user
       "is_verified": true,
       "createdAt": "2024-02-08T21:13:53.948Z",
       "updatedAt": "2024-02-08T21:13:53.948Z",
-      "remaining_show": 5
+      "remaining_show": 5,
+      "stripe_connected": true,
     }
     ```
 
