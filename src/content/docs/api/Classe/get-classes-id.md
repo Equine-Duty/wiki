@@ -25,6 +25,7 @@ description: Route pour obtenir une classe depuis son ID
       "price_entry": 50,
       "show_id": 1,
       "test": {
+        "id": 1,
         "name": "Basic Test",
         "Marks": [
           {
