@@ -41,14 +41,12 @@ Route pour recevoir toutes les inscriptions d'un show.
         "approved": false,
         "createdAt": "2024-02-23T16:13:51.608Z",
         "updatedAt": "2024-02-23T16:13:51.608Z",
-        "Classes_Inscriptions": [
-          {
-            "class_id": 1,
-            "class": {
-              "name": "Jumping Class A"
-            }
+        "Classes_Inscriptions": {
+          "class_id": 1,
+          "class": {
+            "name": "Jumping Class A"
           }
-        ],
+        },
         "Inscriptions_Asked_Codes": [
           {
             "code_name": "quebec_equestre",
