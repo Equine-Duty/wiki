@@ -58,6 +58,7 @@ Route pour s'inscrire à un concours
         "nb_tack_stalls": 1,
         "nb_hay_bale": 30,
         "nb_chipping_bags": 43,
+        "stall_type": "PERMANENT",
         "has_payed": false,
         "approved": false,
         "createdAt": "2024-02-08T21:13:53.948Z",
