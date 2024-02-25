@@ -21,6 +21,7 @@ Route pour s'inscrire à un concours
     `horse_id=[int]`<br>
     `rider_id=[int]`<br>
     `nb_stalls=[int]`<br>
+    `nb_tack_stalls=[int]`<br>
     `nb_hay_bale=[int]`<br> 
     `nb_shaving_bags=[int]`<br>
     `show_asked_codes=[object or null]`<br>
@@ -31,6 +32,7 @@ Route pour s'inscrire à un concours
         "horse_id": 1,
         "rider_id": 1,
         "nb_stalls": 45,
+        "nb_tack_stalls: 1"
         "nb_hay_bale": 30,
         "nb_shaving_bags": 43,
         "show_asked_codes": {
@@ -53,6 +55,7 @@ Route pour s'inscrire à un concours
         "user_id": 1,
         "no_fei": null,
         "nb_stalls": 45,
+        "nb_tack_stalls": 1,
         "nb_hay_bale": 30,
         "nb_shaving_bags": 43,
         "has_payed": false,
