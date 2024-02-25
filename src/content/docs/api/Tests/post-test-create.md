@@ -26,7 +26,7 @@ description: Route pour ajouter un test
   **Optionnel**<br>
   `nb_standard_marks=[int]`<br>
   `nb_collectives_marks=[int]`<br>
-  `marks=[JsonObjectArray]`<br>
+  `Marks=[JsonObjectArray]`<br>
   - `move_name=[string]`
   - `note=[int]`
   - `coef_points=[double]`

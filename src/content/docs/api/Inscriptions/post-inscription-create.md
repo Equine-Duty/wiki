@@ -16,14 +16,29 @@ Route pour s'inscrire à un concours
 
     **Requis:**
 
-        Content-Type:  JSON
+    Content-Type:  JSON
 
-        `horse_id=[int]`<br>
-        `rider_id=[int]`<br>
-        `nb_stalls=[int]`<br>
-        `nb_hay_bale=[int]`<br> 
-        `nb_shaving_bags=[int]`<br>
+    `horse_id=[int]`<br>
+    `rider_id=[int]`<br>
+    `nb_stalls=[int]`<br>
+    `nb_hay_bale=[int]`<br> 
+    `nb_shaving_bags=[int]`<br>
+    `show_asked_codes=[object or null]`<br>
 
+    **Exemple:**
+    ```json
+    {
+        "horse_id": 1,
+        "rider_id": 1,
+        "nb_stalls": 45,
+        "nb_hay_bale": 30,
+        "nb_shaving_bags": 43,
+        "show_asked_codes": {
+            "quebec_equestre": "123456789",
+            "no_montreal": "qwerty123",
+        }
+    }
+    ```
 
 * **Réponse de succès:**
   

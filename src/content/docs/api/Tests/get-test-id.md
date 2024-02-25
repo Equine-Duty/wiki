@@ -1,9 +1,9 @@
 ---
-title: Modifier un test + marks ⛔
-description: Route pour modifier un test et ses marks
+title: Recevoir un test par son id avec les marks ⛔
+description: Route pour recevoir un test par son id avec les marks associés
 ---
 
-Route pour modifier un test et ses marks.
+Route pour recevoir un test par son id avec les marks associés.
 
 - **URL**
 
@@ -11,29 +11,11 @@ Route pour modifier un test et ses marks.
 
 - **Méthode:**
 
-  `PUT`
-
-- **Paramètres:**
-
-  Content-Type: application/json<br>
-
-  `number=[string]`<br>
-  `name=[string]`<br>
-  `short_name=[string]`<br>
-  `points_precision=[int]`<br>
-  `duration_minute=[int]`<br>
-  `total_points_possibility=[int]`<br>
-  `nb_standard_marks=[int]`<br>
-  `nb_collectives_marks=[int]`<br>
-  `Marks=[JsonObjectArray]`<br>
-  - `move_name=[string]`
-  - `note=[int]`
-  - `coef_points=[double]`
-  - `type=[string|COLLECTIVE||STANDARD]`
+  `GET`
 
 - **Réponse de succès:**
 
-  - **Code:** 200 OK <br />
+  - **Code:** 200 OK <br>
     **Contenu:**
     ```json
     {
@@ -60,19 +42,20 @@ Route pour modifier un test et ses marks.
         ...
       ]
     }
-
     ```
 
 - **Réponse d'erreur:**
 
+  - **Code:** 204 No Content <br />
+
   - **Code:** 401 UNAUTHORIZED <br />
-    **Contenu:**
+    **Contenu:** 
     ```json
-    { "message" : "Non authentifié." }
+    { "message": "Non authentifié." }
     ```
 
   - **Code:** 403 FORBIDDEN <br />
-    **Contenu:**
+    **Contenu:** 
     ```json
-    { "message" : "Cette action n’est pas autorisée." }
+    { "message": "Cette action n’est pas autorisée." }
     ```

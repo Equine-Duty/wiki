@@ -1,5 +1,5 @@
 ---
-title: Modifier un show ⛔
+title: Modifier un show ✅
 description: Route pour modifier un show.
 ---
 
@@ -20,11 +20,11 @@ description: Route pour modifier un show.
 
     `name=[string]`<br>
     `address_id=[int]`<br>
-    `nb_total_place=[boolean]`<br>
-    `nb_temp_stalls=[boolean]`<br>
-    `nb_tack_stalls=[boolean]`<br>
-    `nb_permanent_stalls=[boolean]`<br>
-    `recognized_show=[int]`<br>
+    `nb_total_place=[int]`<br>
+    `nb_temp_stalls=[int]`<br>
+    `nb_tack_stalls=[int]`<br>
+    `nb_permanent_stalls=[int]`<br>
+    `recognized_show=[boolean]`<br>
     `rules=[string]`<br>
     `start_date=[string]`<br>
     `end_date=[string]`<br>
@@ -34,7 +34,6 @@ description: Route pour modifier un show.
     `asked_codes=[string]`<br>
     `is_vaccination_proof_required=[boolean]`<br>
     `is_coggins_proof_required=[boolean]`<br>
-    `is_published=[boolean]`<br>
     `hay=[int]`<br>
     `shaving=[int]`<br>
     `temp_stall_per_day=[int]`<br>
@@ -71,20 +70,73 @@ description: Route pour modifier un show.
 
 * **Réponse d'erreur:**
 
+
+  * **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "errorMessage": ["Asked codes must be unique","Not enough permanent stalls", "Not enough tack stalls"
+    , "Not enough temp stalls", "Not enough place",
+    "End date cannot be before start date", "Start date cannot be before inscription end date",
+     "Late inscription date cannot be before end date", "End date cannot be before start date",
+      "The show inscription start date is in the past",] }
+    ```
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "There can only be one file named show_logo." }
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Inscription end date cannot be before inscription start date" }
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Late inscription date cannot be before inscription end date" }
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Start date cannot be before inscription end date or inscription end late date" }
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Not enough total place" }
+
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Not enough tack stalls" }
+
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Not enough permanent stalls" }
+
+
+* **Code:** 400 Bad Request <br />
+    **Contenu:** 
+    ```json
+    { "error": "Not enough temp stalls" }
+
   * **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
     ```json
-    { "message": "Non authentifié." }
+    { "message": "Unauthorized" }
     ```
 
   * **Code:** 403 FORBIDDEN <br />
     **Contenu:** 
     ```json
-    { "message": "Cette action n’est pas autorisée." }
+    { "message": "Forbidden" }
     ```
 
   * **Code:** 404 NOT FOUND <br />
     **Contenu:** 
     ```json
-    { "message": "La ressource n’existe pas." }
+    { "error": "Show id not found" }
     ```
