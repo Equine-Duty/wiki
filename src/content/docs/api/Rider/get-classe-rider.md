@@ -31,6 +31,9 @@ Route pour recevoir la liste des riders d'une classe
           "stable_name": "Stable ABC",
           "trainer_name": "Trainer XYZ",
           "user_id": 1,
+          "horse": {
+            "name": "Thunder"
+          }
         },
         {
           "id": 2,
@@ -43,6 +46,9 @@ Route pour recevoir la liste des riders d'une classe
           "stable_name": "Highland Equestrian",
           "trainer_name": "David Trainer",
           "user_id": 1,
+           "horse": {
+            "name": "Paulo"
+          }
         },
         {
           "id": 3,
@@ -55,6 +61,9 @@ Route pour recevoir la liste des riders d'une classe
           "stable_name": "Sunset Stables",
           "trainer_name": "Jessica Trainer",
           "user_id": 1,
+           "horse": {
+            "name": "Loulou"
+          }
         },
         ...
       ]
