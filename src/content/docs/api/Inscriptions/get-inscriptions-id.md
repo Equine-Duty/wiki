@@ -10,7 +10,7 @@ Route pour recevoir une inscription par son id.
   `GET`
 
 - **Réponse de succès:**
-  - **Code:**200 OK <br>
+  - **Code:** 200 OK <br>
   **Contenu:** <br>
   ```json
   {
