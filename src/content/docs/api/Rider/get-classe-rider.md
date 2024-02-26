@@ -7,7 +7,7 @@ Route pour recevoir la liste des riders d'une classe
 
 - **URL**
 
-  /api/classe/{classId}/riders
+  api/shows/{showId}/classes/{classid}/riders
 
 - **Méthode:**
 
