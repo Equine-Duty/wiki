@@ -1,5 +1,5 @@
 ---
-title: Recevoir un test par son id avec les marks ⛔
+title: Recevoir un test par son id avec les marks ✅
 description: Route pour recevoir un test par son id avec les marks associés
 ---
 

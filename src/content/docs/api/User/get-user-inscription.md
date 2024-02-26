@@ -32,6 +32,7 @@ Route pour recevoir la liste des users avec ou sans filtre.
                 },
                 "horse_name": "Rudolph",
                 "rider_name": "Arthur",
+                "class_name": "Jumping Class A",
             },
             ...
         ],

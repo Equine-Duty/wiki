@@ -1,5 +1,5 @@
 ---
-title: Supprimer un test ⛔
+title: Supprimer un test ✅
 description: Route pour supprimer un test
 ---
 
