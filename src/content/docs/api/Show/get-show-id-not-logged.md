@@ -1,5 +1,5 @@
 ---
-title: Recevoir un show par id (non connecté) ⛔
+title: Recevoir un show par id (non connecté) ✅
 description: Route pour recevoir un show par son id lorsque le user n'est pas connecté.
 ---
 

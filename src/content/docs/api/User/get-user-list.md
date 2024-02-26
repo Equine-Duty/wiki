@@ -1,5 +1,5 @@
 ---
-title: Recevoir la liste des users ⛔
+title: Recevoir la liste des users ✅
 ---
 
 Route pour recevoir la liste des users avec ou sans filtre.

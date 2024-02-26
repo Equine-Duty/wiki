@@ -1,5 +1,5 @@
 ---
-title: Modifier un test + marks ⛔
+title: Modifier un test + marks ✅
 description: Route pour modifier un test et ses marks
 ---
 
