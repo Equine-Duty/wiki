@@ -7,7 +7,7 @@ Route pour recevoir tout les résultats d'un show.
 
 - **URL**
 
-  /api/shows/{showId}/result
+  /api/results/shows/{showId}
 
 - **Méthode:**
 
