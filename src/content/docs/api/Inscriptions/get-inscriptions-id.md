@@ -1,9 +1,13 @@
 ---
-title: Recevoir une inscription par son id ⛔
+title: Recevoir une inscription par son id ✅
 description: Route pour recevoir une inscription par son id.
 ---
 
 Route pour recevoir une inscription par son id.
+
+- **URL**
+
+  /api/shows/{showId}/classes/{classId}/inscriptions/{inscriptionId}
 
 - **Méthode:**
 
