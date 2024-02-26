@@ -21,37 +21,46 @@ Route pour recevoir une inscription par son id.
     "user_id": 1,
     "no_fei": "FEI123",
     "nb_stalls": 2,
+    "nb_tack_stalls": 1,
     "nb_hay_bale": 5,
     "nb_chipping_bags": 3,
+    "stall_type": "PERMANENT",
     "has_payed": false,
     "invoice_number": null,
-    "entry_number": 1,
     "approved": false,
-    "createdAt": "2024-02-23T16:13:51.608Z",
-    "updatedAt": "2024-02-23T16:13:51.608Z",
-    "Classes_Inscriptions": {
-      "class_id": 1,
-      "class": {
-        "name": "Jumping Class A"
-      }
-    },
+    "createdAt": "2024-02-26T13:33:57.418Z",
+    "updatedAt": "2024-02-26T13:33:57.418Z",
     "Inscriptions_Asked_Codes": [
       {
+        "id": 1,
         "code_name": "quebec_equestre",
-        "code_value": "1342346"
-      },
-      ...
+        "inscription_id": 1,
+        "code_value": "1342346",
+        "createdAt": "2024-02-26T13:33:57.452Z",
+        "updatedAt": "2024-02-26T13:33:57.452Z"
+      }
     ],
-    "user": {
-      "name": "John Doe"
+    "show": {
+      "id": 1,
+      "name": "Show 1",
+      "start_date": "2023-08-04T17:24:16.086Z",
+      "city": "Montreal",
+      "zip_code": "12345"
     },
-    "rider": {
-      "name": "Jane Doe"
-    },
-    "horse": {
-      "name": "Thunder"
-    }
-  },
+    "horse_name": "Thunder",
+    "rider_name": "Jane Doe",
+    "show_asked_codes": [
+      {
+        "id": 1,
+        "code_name": "quebec_equestre",
+        "inscription_id": 1,
+        "code_value": "1342346",
+        "createdAt": "2024-02-26T13:33:57.452Z",
+        "updatedAt": "2024-02-26T13:33:57.452Z"
+      }
+    ],
+    "class_name": "Jumping Class A",
+  }
   ```
 
 - **Réponse d'erreur:**
