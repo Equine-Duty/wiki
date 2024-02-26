@@ -124,6 +124,12 @@ Route pour générer un horaire.
 
 - **Code d'erreur:**<br>
 
+  - **Code:** 400 FORBIDDEN <br />
+    **Contenu:** 
+    ```json
+    { "message" : "La ressource a déjà été crée" }
+    ```
+
   - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:** 
     ```json
@@ -135,3 +141,5 @@ Route pour générer un horaire.
     ```json
     { "message" : "Cette action n’est pas autorisée." }
     ```
+
+  
