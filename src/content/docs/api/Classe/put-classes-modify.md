@@ -36,55 +36,21 @@ description: Route pour modifier uneclasse
   - **Code:** 201 <br />
     **Contenu:**
     ```json
-     {
-      "id": 5,
-      "number": "52",
-      "name": " 99",
-      "date": "2025-01-29T00:00:00.000Z",
-      "ring_name": " \"Bell Center\",",
-      "ring_number": " \"12AB\",",
-      "price_entry": 50,
+    {
+      "id": 1,
+      "number": "a",
+      "name": "<nom de la classe>",
+      "date": "2024-01-29",
+      "ring_name": "<nom du ring>",
+      "ring_number": "<numero du ring>",
+      "price_entry": 1499,
       "show_id": 1,
-      "test_id": 2,
-      "level_type": " Training,",
+      "test_id": 1,
+      "level_type": "Master",
       "is_test_of_choice": true,
-      "createdAt": "2024-02-27T20:32:16.532Z",
-      "updatedAt": "2024-02-27T20:32:16.532Z",
-      "test": {
-          "id": 2,
-          "number": "AFG123",
-          "name": "Basic Test",
-          "short_name": "BD1",
-          "points_precision": 2,
-          "duration_minute": 42,
-          "nb_standard_marks": 6,
-          "nb_collectives_marks": 4,
-          "total_points_possibility": 432,
-          "user_id": 2,
-          "createdAt": "2024-02-27T20:23:13.135Z",
-          "updatedAt": "2024-02-27T20:23:13.135Z"
-      },
-      "Judges_Classes": [
-          {
-              "id": 4,
-              "class_id": 5,
-              "ring_name": "Allo",
-              "name": "A",
-              "ring_position": "H",
-              "createdAt": "2024-02-27T20:32:16.532Z",
-              "updatedAt": "2024-02-27T20:32:16.532Z"
-          },
-          {
-              "id": 5,
-              "class_id": 5,
-              "ring_name": "Allo",
-              "name": "Bob",
-              "ring_position": "C",
-              "createdAt": "2024-02-27T20:32:16.532Z",
-              "updatedAt": "2024-02-27T20:32:16.532Z"
-          }
-      ]
-  }  
+      "createdAt": "2024-02-13T19:37:53.933Z",
+      "updatedAt": "2024-02-13T19:42:55.887Z"
+    }
     ```
 
 - **Réponse d'erreur:**
@@ -95,13 +61,9 @@ description: Route pour modifier uneclasse
     ```json
     { "message": "Non authentifié." }
     ```
+
   - **Code:** 403 FORBIDDEN <br />
     **Contenu:**
     ```json
     { "message": "Cette action n’est pas autorisée." }
-    ```
-  - **Code:** 403 FORBIDDEN <br />
-    **Contenu:**
-    ```json
-    {"error": "Test id not found"}
     ```
