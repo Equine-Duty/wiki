@@ -1,5 +1,5 @@
 ---
-title: Générer l'horaire ⛔
+title: Générer l'horaire ✅
 description: Route pour générer un horaire.
 ---
 
@@ -18,103 +18,105 @@ Route pour générer un horaire.
   Content-Type: application/json
 
 - **Réponse de succès:**
-  
+
   - **Code:** 201 Created<br />
     **Contenu:**
     ```json
     {
-      "id": 1,
+      "id": -1,
       "rings": [
         {
-          "name": "RING",
-          "number": "1",
+          "name": "Bell Center",
           "classes": [
             {
-              "number": "1209",
-              "name": "BRONZE - Niveau 1 Adulte Test 1", 
+              "number": "Alloa",
+              "name": "Jumping Class A",
+              "duration_minute": 5,
               "judges": [
                 {
-                  "name": "Francine Bell",
-                  "position": "C"
+                  "name": "John Deer",
+                  "position": "H"
+                },
+                {
+                  "name": "Marko Diamo",
+                  "position": "B"
                 }
               ],
-              "test": "1-1",
+              "test": "BD1",
               "riders": [
                 {
-                  "time_start": "8:00 AM", 
-                  "number": "45",
-                  "name": "Sarah Gibault",
-                  "horse_name": "MAGNUM"
+                  "time_start": "00:00 AM",
+                  "number": 1,
+                  "name": "Jane Doe",
+                  "horse": {
+                    "id": 1,
+                    "name": "Thunder"
+                  }
                 },
                 {
-                  "time_start": "8:07 AM", 
-                  "number": "28",
-                  "name": "Erica David",
-                  "horse_name": "BUZZIN"
-                },
-                {
-                  "time_start": "8:14 AM", 
-                  "number": "65",
-                  "name": "Joanie Leclerc",
-                  "horse_name": "LEGEND"
-                },
-                {
-                  "time_start": "8:21 AM", 
-                  "number": "98",
-                  "name": "Lili Jade",
-                  "horse_name": "KIRIKOU"
+                  "time_start": "00:00 AM",
+                  "number": 2,
+                  "name": "Max Doe",
+                  "horse": {
+                    "id": 1,
+                    "name": "Thunder"
+                  }
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "name": "Baldurs Center",
+          "classes": [
             {
-              "number": "1209",
-              "name": "BRONZE - Niveau 1 Junior Test 1",
-              "judges": [
-                {
-                  "name": "Francine Bell",
-                  "position": "C"
-                }
-              ],
-              "test": "1-1",
+              "number": "1-1",
+              "name": "Running Class A",
+              "duration_minute": 5,
+              "judges": [],
+              "test": "BD1",
               "riders": [
                 {
-                  "time_start": "8:28 AM", 
-                  "number": "26",
-                  "name": "Florence Cyr",
-                  "horse_name": "MISS KHALI"
+                  "time_start": "00:00 AM",
+                  "number": 1,
+                  "name": "Jane Doe",
+                  "horse": {
+                    "id": 2,
+                    "name": "Electric"
+                  }
+                },
+                {
+                  "time_start": "00:00 AM",
+                  "number": 1,
+                  "name": "Jane Doe",
+                  "horse": {
+                    "id": 4,
+                    "name": "Electric"
+                  }
+                },
+                {
+                  "time_start": "00:00 AM",
+                  "number": 1,
+                  "name": "Jane Doe",
+                  "horse": {
+                    "id": 2,
+                    "name": "Electric"
+                  }
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "name": "Bell Center",
+          "classes": [
             {
-              "number": "211",
-              "name": "OR - Niveau 1 Adulte Amateur Test 1",
-              "judges": [
-                {
-                  "name": "Francine Bell",
-                  "position": "C"
-                }
-              ],
-              "test": "1-1",
-              "riders": [
-                {
-                  "time_start": "8:35 AM", 
-                  "number": "7",
-                  "name": "Andree Bessette",
-                  "horse_name": "FANI DE LYS"
-                },
-                {
-                  "time_start": "8:42 AM", 
-                  "number": "73",
-                  "name": "Justine Paré",
-                  "horse_name": "ZULLA'S FIRE N ICE"
-                },
-                {
-                  "time_start": "8:49 AM", 
-                  "number": "69",
-                  "name": "Sarah Nault",
-                  "horse_name": "CALISTA"
-                }
-              ]
+              "number": "1-2",
+              "name": "Jumping Class B",
+              "duration_minute": 5,
+              "judges": [],
+              "test": "BD1",
+              "riders": []
             }
           ]
         }
@@ -125,21 +127,21 @@ Route pour générer un horaire.
 - **Code d'erreur:**<br>
 
   - **Code:** 400 FORBIDDEN <br />
-    **Contenu:** 
+    **Contenu:**
+
     ```json
-    { "message" : "La ressource a déjà été crée" }
+    { "message": "La ressource a déjà été crée" }
     ```
 
   - **Code:** 401 UNAUTHORIZED <br />
-    **Contenu:** 
+    **Contenu:**
+
     ```json
-    { "message" : "Non authentifié." }
+    { "message": "Non authentifié." }
     ```
 
   - **Code:** 403 FORBIDDEN <br />
-    **Contenu:** 
+    **Contenu:**
     ```json
-    { "message" : "Cette action n’est pas autorisée." }
+    { "message": "Cette action n’est pas autorisée." }
     ```
-
-  
