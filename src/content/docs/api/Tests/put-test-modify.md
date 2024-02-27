@@ -25,7 +25,7 @@ Route pour modifier un test et ses marks.
   `total_points_possibility=[int]`<br>
   `nb_standard_marks=[int]`<br>
   `nb_collectives_marks=[int]`<br>
-  `Marks=[JsonObjectArray]`<br>
+  `marks=[JsonObjectArray]`<br>
   - `move_name=[string]`
   - `note=[int]`
   - `coef_points=[double]`
