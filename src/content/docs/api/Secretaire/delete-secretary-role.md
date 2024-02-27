@@ -1,6 +1,6 @@
 ---
-title: Enlever le role de secrétaire ✅
-description: Route pour enlever le role de secrétaire à un utilisateur.Après avoir enlever le role, le server envoie un couriel à l'utilisateur pour le notifier.
+title: Enlever le secrétaire du show✅
+description: Route pour enlever le secrétaire du show
 ---
 
 * **URL**
@@ -18,7 +18,7 @@ description: Route pour enlever le role de secrétaire à un utilisateur.Après 
   
   * **Code:** 200 <br/>
     **Contenu:** 
-     `string => Secretary changed successfully`
+     `string => Secretary removed from show successfully`
 
 * **Réponse d'erreur:**
 
