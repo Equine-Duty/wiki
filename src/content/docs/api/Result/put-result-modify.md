@@ -23,17 +23,19 @@ Route pour un modifier un résultat.
     `nbErrors=[int]`<br>
     `reason=[ELEMINATED|HC|NO_SHOW|RETIRED|SCRATCH|VET_OUT|WITHDREW]`<br>
     `horse_id=[int]`<br>
+    `rider_entry_number`<br>
 
 - **Réponse de succès:**
 
   - **Code:** 201 Created <br>
     **Contenu:**<br>
     ```json
-    { 
-      "score": 20,
-      "nbErrors": 2,
+    {
+      "score": 50,
+      "nbErrors": 1,
       "reason": "RETIRED",
       "horse_id": 1,
+      "rider_entry_number": 1
     }
     ```
 
