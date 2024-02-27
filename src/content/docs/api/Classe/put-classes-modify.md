@@ -25,6 +25,11 @@ description: Route pour modifier uneclasse
   `price_entry=[int]`<br>
   `level_type=[string]`<br>
   `is_test_of_choice=[bool]`<br>
+  `test_id=[int]`<br>
+  `judges=[JsonObjectArray]`<br>
+  - `ring_name=[string]`
+  - `name=[string]`
+  - `ring_position=[E|H|C|M|B]`
 
 - **Réponse de succès:**
 
