@@ -7,7 +7,7 @@ Route pour confirmer un horaire.
 
 - **URL**
 
-  /api/shows/{showId}/date/{date}/confirmSchedule
+  /api/shows/{showId}/schedule/date/{date}/confirmSchedule
 
 - **Méthode:**
 
