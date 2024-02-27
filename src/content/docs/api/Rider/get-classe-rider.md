@@ -32,40 +32,30 @@ Route pour recevoir la liste des riders d'une classe
           "trainer_name": "Trainer XYZ",
           "user_id": 1,
           "horse": {
+            "id": 1,
             "name": "Thunder"
-          }
+          },
+          "rider_entry_number": 1,
+          "time": 13
         },
         {
           "id": 2,
-          "name": "Benjamin Jumper",
-          "phone": "514-555-7890",
-          "email": "benjamin.jumper@example.com",
-          "no_fei": "12345678",
-          "emergency_name": "Mary Johnson",
-          "emergency_phone": "514-987-6543",
-          "stable_name": "Highland Equestrian",
-          "trainer_name": "David Trainer",
+          "name": "Max Doe",
+          "phone": "123-456-7890",
+          "email": "max.doe@example.com",
+          "no_fei": "FEI789",
+          "emergency_name": "Emergency Contact",
+          "emergency_phone": "987-654-3210",
+          "stable_name": "Stable ABC",
+          "trainer_name": "Trainer XYZ",
           "user_id": 1,
-           "horse": {
-            "name": "Paulo"
-          }
-        },
-        {
-          "id": 3,
-          "name": "Claire Canter",
-          "phone": "438-765-4321",
-          "email": "claire.canter@example.com",
-          "no_fei": "12345678",
-          "emergency_name": "Michael Brown",
-          "emergency_phone": "438-123-4567",
-          "stable_name": "Sunset Stables",
-          "trainer_name": "Jessica Trainer",
-          "user_id": 1,
-           "horse": {
-            "name": "Loulou"
-          }
-        },
-        ...
+          "horse": {
+            "id": 1,
+            "name": "Thunder"
+          },
+          "rider_entry_number": 2,
+          "time": 13
+        }
       ]
     }
     ```
