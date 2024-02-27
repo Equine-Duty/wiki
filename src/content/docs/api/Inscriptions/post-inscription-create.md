@@ -50,7 +50,17 @@ Route pour s'inscrire à un concours
         "show_asked_codes": {
             "quebec_equestre": "123456789",
             "no_montreal": "qwerty123",
-        }
+        },
+        "nb_days":2,
+        "Shows_Packages": [
+          {
+            "id":1, 
+            "count":1
+            }, 
+          {
+            "id":2, "count":2
+            }
+          ]
     }
     ```
 <br>
