@@ -1,5 +1,5 @@
 ---
-title: Confirmer l'horaire ⛔
+title: Confirmer l'horaire ✅
 description: Route pour confirmer un horaire.
 ---
 
@@ -59,7 +59,7 @@ Route pour confirmer un horaire.
   - **Code:** 201 Created<br />
     **Contenu:**
     ```json
-    { "message": "Votre horaire est confirmé." }
+    { "message": "Schedule created" }
     ```
 
 - **Code d'erreur:**<br>
