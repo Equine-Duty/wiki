@@ -7,7 +7,7 @@ Route pour confirmer un horaire.
 
 - **URL**
 
-  /api/shows/{showId}/confirmSchedule
+  /api/shows/{showId}/date/{date}/confirmSchedule
 
 - **Méthode:**
 
@@ -17,126 +17,68 @@ Route pour confirmer un horaire.
 
   Content-Type: application/json
 
-  Data à renvoyer est le même JSON que lors de la génération avec les modifications (si des modifications était nécessaire)<br>
   ```json
-    {
-      "id": 1,
-      "rings": [
-        {
-          "name": "RING",
-          "number": "1",
-          "classes": [
-            {
-              "number": "1209",
-              "name": "BRONZE - Niveau 1 Adulte Test 1", 
-              "judges": [
-                {
-                  "name": "Francine Bell",
-                  "position": "C"
+  {
+    "rings": [
+      {
+        "name": "allo",
+        "start_time": "11:00 JMEN BLC",
+        "date": "2024-01-09",
+        "ClassSchedule": [
+          {
+            "number": "123",
+            "name": "Jumping Area A",
+            "duration_minute": 3,
+            "test": "1-1 (SHORT NAME)",
+            "riders": [
+              {
+                "id": 1,
+                "name": "Bob",
+                "time_start": "08:00",
+                "horse": {
+                  "name": "Thunder",
+                  "id": 1
                 }
-              ],
-              "test": "1-1",
-              "riders": [
-                {
-                  "time_start": "8:00 AM", 
-                  "number": "45",
-                  "name": "Sarah Gibault",
-                  "horse_name": "MAGNUM"
-                },
-                {
-                  "time_start": "8:07 AM", 
-                  "number": "28",
-                  "name": "Erica David",
-                  "horse_name": "BUZZIN"
-                },
-                {
-                  "time_start": "8:14 AM", 
-                  "number": "65",
-                  "name": "Joanie Leclerc",
-                  "horse_name": "LEGEND"
-                },
-                {
-                  "time_start": "8:21 AM", 
-                  "number": "98",
-                  "name": "Lili Jade",
-                  "horse_name": "KIRIKOU"
-                }
-              ]
-            },
-            {
-              "number": "1209",
-              "name": "BRONZE - Niveau 1 Junior Test 1",
-              "judges": [
-                {
-                  "name": "Francine Bell",
-                  "position": "C"
-                }
-              ],
-              "test": "1-1",
-              "riders": [
-                {
-                  "time_start": "8:28 AM", 
-                  "number": "26",
-                  "name": "Florence Cyr",
-                  "horse_name": "MISS KHALI"
-                }
-              ]
-            },
-            {
-              "number": "211",
-              "name": "OR - Niveau 1 Adulte Amateur Test 1",
-              "judges": [
-                {
-                  "name": "Francine Bell",
-                  "position": "C"
-                }
-              ],
-              "test": "1-1",
-              "riders": [
-                {
-                  "time_start": "8:35 AM", 
-                  "number": "7",
-                  "name": "Andree Bessette",
-                  "horse_name": "FANI DE LYS"
-                },
-                {
-                  "time_start": "8:42 AM", 
-                  "number": "73",
-                  "name": "Justine Paré",
-                  "horse_name": "ZULLA'S FIRE N ICE"
-                },
-                {
-                  "time_start": "8:49 AM", 
-                  "number": "69",
-                  "name": "Sarah Nault",
-                  "horse_name": "CALISTA"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-    ```
+              }
+            ],
+            "judges": [
+              {
+                "name": "Marco",
+                "position": "B"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  ```
 
 - **Réponse de succès:**
-  
+
   - **Code:** 201 Created<br />
     **Contenu:**
     ```json
-    { "message" : "Votre horaire est confirmé." }
+    { "message": "Votre horaire est confirmé." }
     ```
-    
+
 - **Code d'erreur:**<br>
 
   - **Code:** 401 UNAUTHORIZED <br />
-    **Contenu:** 
+    **Contenu:**
+
     ```json
-    { "message" : "Non authentifié." }
+    { "message": "Non authentifié." }
     ```
 
   - **Code:** 403 FORBIDDEN <br />
-    **Contenu:** 
+    **Contenu:**
     ```json
-    { "message" : "Cette action n’est pas autorisée." }
+    { "message": "Cette action n’est pas autorisée." }
+    ```
+
+  - **Code:** 400 BAD REQUEST <br />
+    **Contenu:**
+    ```json
+      { "message": "{Message erreur de validation ici}" }
     ```
