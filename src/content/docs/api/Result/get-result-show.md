@@ -21,27 +21,37 @@ Route pour recevoir tout les résultats d'un show.
   {
     "show": {
       "name": "Show 1",
-      "start_date": "2024-11-24T03:10:52.634Z",
+      "start_date": "2023-08-02T16:54:55.361Z",
       "classes": [
         {
           "name": "Jumping Class A",
-          "number": "12",
-          "tests": [
-            {
-              "name": "1-1",
-              "results": [
-                { // Ordre croissant
-                  "rider_name": "Albert",
-                  "horse_name": "Rudolph",
-                  "entry_number": 1,
-                  "score": 98.9,
-                }
-              ],
-            },
-          ],
-        },
-      ],
-      }
+          "number": "Alloa",
+          "test": {
+            "name": "Basic Test",
+            "Results": [
+              {
+                "rider_name": "Jane Doe",
+                "horse_name": "Thunder",
+                "score": 70,
+                "rider_entry_number": 1
+              },
+              {
+                "rider_name": "Jane Doe",
+                "horse_name": "Thunder",
+                "score": 50,
+                "rider_entry_number": 1
+              },
+              {
+                "rider_name": "Jane Doe",
+                "horse_name": "Thunder",
+                "score": 20,
+                "rider_entry_number": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
   }
   ```
 
