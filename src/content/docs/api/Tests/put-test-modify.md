@@ -25,7 +25,7 @@ Route pour modifier un test et ses marks.
   `total_points_possibility=[int]`<br>
   `nb_standard_marks=[int]`<br>
   `nb_collectives_marks=[int]`<br>
-  `Marks=[JsonObjectArray]`<br>
+  `marks=[JsonObjectArray]`<br>
   - `move_name=[string]`
   - `note=[int]`
   - `coef_points=[double]`
@@ -37,28 +37,42 @@ Route pour modifier un test et ses marks.
     **Contenu:**
     ```json
     {
-      "id": 2,
-      "number": "12",
-      "name": "Allo",
-      "short_name": "A",
-      "points_precision": 13,
-      "duration_minute": 20,
-      "nb_standard_marks": 25,
-      "nb_collectives_marks": 25,
-      "total_points_possibility": 50,
-      "user": {
-        "id": 4
-      },
-      "Marks": [
-        {
-          "id": 1,
-          "move_name": "JUMP",
-          "note": 2,
-          "coef_points": 3.3,
-          "type": "COLLECTIVE",
-        }
-        ...
-      ]
+      "test": {
+          "id": 7,
+          "number": " 99",
+          "name": " jojo",
+          "short_name": " n",
+          "points_precision": 77,
+          "duration_minute": 88,
+          "nb_standard_marks": 3,
+          "nb_collectives_marks": 70,
+          "total_points_possibility": 100,
+          "user_id": 2,
+          "createdAt": "2024-02-26T19:33:31.544Z",
+          "updatedAt": "2024-02-26T19:35:04.386Z",
+          "Marks": [
+              {
+                  "id": 12,
+                  "move_name": "hohoho",
+                  "note": 999,
+                  "coef_points": 999,
+                  "type": "STANDARD",
+                  "test_id": 7,
+                  "createdAt": "2024-02-26T19:35:04.386Z",
+                  "updatedAt": "2024-02-26T19:35:04.386Z"
+              },
+              {
+                  "id": 13,
+                  "move_name": "pp",
+                  "note": 999,
+                  "coef_points": 999,
+                  "type": "STANDARD",
+                  "test_id": 7,
+                  "createdAt": "2024-02-26T19:35:04.386Z",
+                  "updatedAt": "2024-02-26T19:35:04.386Z"
+              }
+          ]
+      }
     }
 
     ```

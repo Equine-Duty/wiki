@@ -26,7 +26,10 @@ Route pour recevoir touts les shows qu'un organisateur a créé.
         "name": "Show 1",
         "organizer": {
           "name": "Mark Admio"
-          },
+        },
+        "nb_free_permanent_stalls": 2,
+        "nb_free_temp_stalls": 2,
+        "nb_free_tack_stalls": 2,
         "path_logo": null,
         "nb_free_place": 29,
         "nb_total_place": 97,

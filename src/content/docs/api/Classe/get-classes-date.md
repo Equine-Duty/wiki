@@ -1,24 +1,32 @@
 ---
-title: Recevoir la liste des riders d'une classe ✅
-description: Route pour recevoir la liste des riders d'une classe
+title: Obtenir une classe pour un show et une date  ✅
+description: Route pour obtenir une classe depuis un show et sa date. Pour organisateurs et admins.
 ---
-
-Route pour recevoir la liste des riders d'une classe
 
 - **URL**
 
-  api/shows/{showId}/classes/{classid}/riders
+  /api/shows/adminShows/{showId}/classes/date/{date}
+
+- **EXEMPLE**
+  /api/shows/adminShows/1/classes/date/2024-01-02
 
 - **Méthode:**
 
   `GET`
 
 - **Réponse de succès:**
-
   - **Code:** 200 <br />
     **Contenu:**
-    ```json
+```json
+{
+  "is_schedule": false,
+  "data": [
     {
+      "id": 1,
+      "number": "Alloa",
+      "name": "Jumping Class A",
+      "duration_minute": 5,
+      "test": "BD1",
       "riders": [
         {
           "id": 1,
@@ -32,10 +40,8 @@ Route pour recevoir la liste des riders d'une classe
           "trainer_name": "Trainer XYZ",
           "user_id": 1,
           "horse": {
-            "id": 1,
             "name": "Thunder"
           },
-          "rider_entry_number": 1,
           "time": 13
         },
         {
@@ -50,17 +56,32 @@ Route pour recevoir la liste des riders d'une classe
           "trainer_name": "Trainer XYZ",
           "user_id": 1,
           "horse": {
-            "id": 1,
             "name": "Thunder"
           },
-          "rider_entry_number": 2,
           "time": 13
         }
+      ],
+      "judges": [
+        {
+          "id": 1,
+          "class_id": 1,
+          "ring_name": "Bell Center",
+          "name": "John Deer",
+          "ring_position": "H",
+          "createdAt": "2024-02-26T19:04:51.553Z",
+          "updatedAt": "2024-02-26T19:04:51.553Z"
+        }
       ]
-    }
-    ```
+    },
+    ...
+  ]
+}
+```
+  - **Code:** 204 <br />
+    **Contenu:**
+    
 
-- **Réponse d'erreur:**
+* **Réponse d'erreur:**
 
   - **Code:** 401 UNAUTHORIZED <br />
     **Contenu:**

@@ -50,11 +50,23 @@ description: Route pour recevoir un show par son id
         "tack_stall_per_day": 5,
         "drug_test": 20
       },
-      "Shows_Packages": [
+     "Shows_Packages": [
         {
-          "id": 1
+            "package": {
+                "id": 1,
+                "name": "Bundle 1",
+                "description": "Big and good bundle",
+                "tack_stalls": 2,
+                "stalls": 2,
+                "hays": 20,
+                "chipping": 20,
+                "price": 30
+            }
         }
-      ],
+    ],
+      "nb_free_permanent_stalls": 2,
+      "nb_free_temp_stalls": 2,
+      "nb_free_tack_stalls": 2,
       "recognized_show": false,
       "rules": "Hello I am the rules!",
       "start_date": "2024-11-24T03:10:52.634Z",
