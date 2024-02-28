@@ -1,13 +1,13 @@
 ---
-title: Ajouter un résultat ✅
-description: Route pour ajouter un résultat.
+title: Ajouter un résultat d'un judge à un rider ✅
+description: Route pour ajouter un résultat avec le judge et rider Id.
 ---
 
 Route pour ajouter un résultat.
 
 - **URL**
 
-  /api/result/test/{testId}/rider/{riderId}
+  /api/shows/{showId}/results/tests/{testId}/riders/{riderId}/judges/{judgeId}
 
 - **Méthode:**
 
@@ -51,4 +51,9 @@ Route pour ajouter un résultat.
     **Contenu:** 
     ```json
     { "message": "Cette action n’est pas autorisée." }
+    ```
+  - **Code:** 403 FORBIDDEN <br />
+    **Contenu:** 
+    ```json
+    { "error": "The judge already create the result of this rider" }
     ```
