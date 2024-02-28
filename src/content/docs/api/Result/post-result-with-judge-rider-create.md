@@ -31,11 +31,19 @@ Route pour ajouter un résultat.
     **Contenu:**<br>
     ```json
     {
-      "score": 50,
-      "nbErrors": 1,
-      "reason": "RETIRED",
+      "id": 9,
+      "test_id": 1,
+      "rider_id": 1,
       "horse_id": 1,
-      "rider_entry_number": 1
+      "horse_name": "Thunder",
+      "rider_name": "Jane Doe",
+      "score": 99,
+      "nb_errors": 2,
+      "reason": "VET_OUT",
+      "judge_id": 1,
+      "rider_entry_number": 1,
+      "createdAt": "2024-02-28T07:21:51.201Z",
+      "updatedAt": "2024-02-28T07:21:51.201Z"
     }
     ```
 
