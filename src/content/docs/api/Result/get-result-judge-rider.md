@@ -1,5 +1,5 @@
 ---
-title: Recevoir le résultats d'un juge à un rider ✅
+title: Recevoir le résultat d'un juge à un rider ✅
 description: Route pour recevoir le résultatsd'un juge à un rider par leur Id.
 ---
 

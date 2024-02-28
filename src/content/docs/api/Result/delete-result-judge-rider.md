@@ -1,5 +1,5 @@
 ---
-title: Supprime le résultats d'un juge à un rider ✅
+title: Supprime le résultat d'un juge à un rider ✅
 description: Route pour supprimer le résultat d'un juge à un rider par leur Id.
 ---
 
