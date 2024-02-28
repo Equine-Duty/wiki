@@ -17,6 +17,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
 - **Réponse de succès:**
   - **Code:** 200 <br />
     **Contenu:**
+
 ```json
 {
   "is_schedule": false,
@@ -77,9 +78,84 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
   ]
 }
 ```
+
+** SI UN HORAIRE EXISTE **
+
+- **Code:** 200 <br />
+  **Contenu:**
+
+  ```json
+  {
+    "is_schedule": true,
+    "data": {
+      "rings": [
+        {
+          "name": "allo",
+          "start_time": "11:00 JMEN BLC",
+          "date": "2024-01-09",
+          "ClassSchedule": [
+            {
+              "number": "123",
+              "name": "Jumping Area A",
+              "duration_minute": 3,
+              "test": "1-1 (SHORT NAME)",
+              "riders": [
+                {
+                  "id": 1,
+                  "name": "Bob",
+                  "time_start": "08:00",
+                  "horse": {
+                    "id": 1,
+                    "name": "Thunder"
+                  }
+                }
+              ],
+              "judges": [
+                {
+                  "name": "Marco",
+                  "position": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "new ring",
+          "start_time": "13:00 JMEN BLC",
+          "date": "2024-01-09",
+          "ClassSchedule": [
+            {
+              "number": "456",
+              "name": "Jumping Area B",
+              "duration_minute": 4,
+              "test": "2-1 (SHORT NAME)",
+              "riders": [
+                {
+                  "id": 10,
+                  "name": "Alice",
+                  "time_start": "08:00",
+                  "horse": {
+                    "id": 2,
+                    "name": "Lightning"
+                  }
+                }
+              ],
+              "judges": [
+                {
+                  "name": "Maria",
+                  "position": "B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  ```
+
   - **Code:** 204 <br />
     **Contenu:**
-    
 
 * **Réponse d'erreur:**
 
