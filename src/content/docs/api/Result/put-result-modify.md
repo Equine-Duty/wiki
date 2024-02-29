@@ -1,5 +1,5 @@
 ---
-title: Modifier un résultat ✅
+title: Modifier un résultat ⛔
 description: Route pour un modifier un résultat.
 ---
 
