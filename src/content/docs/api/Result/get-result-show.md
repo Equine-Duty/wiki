@@ -1,5 +1,5 @@
 ---
-title: Recevoir tout les résultats d'un show ⛔
+title: Recevoir tout les résultats d'un show ✅
 description: Route pour recevoir tout les résultats d'un show.
 ---
 
