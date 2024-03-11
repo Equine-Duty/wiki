@@ -1,5 +1,5 @@
 ---
-title: Publier un show ⛔
+title: Publier un show ✅
 description: Route pour publier un show.
 ---
 

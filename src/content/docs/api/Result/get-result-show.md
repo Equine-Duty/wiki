@@ -1,5 +1,5 @@
 ---
-title: Recevoir tout les résultats d'un show ⛔
+title: Recevoir tout les résultats d'un show ✅
 description: Route pour recevoir tout les résultats d'un show.
 ---
 
@@ -28,7 +28,7 @@ Route pour recevoir tout les résultats d'un show.
           "number": "Alloa",
           "test": {
             "name": "Basic Test",
-            "Results": [
+            "results": [
               {
                 "rider_name": "Jane Doe",
                 "horse_name": "Thunder",
