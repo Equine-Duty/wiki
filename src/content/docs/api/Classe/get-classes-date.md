@@ -106,7 +106,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                   "time_start": "08:00",
                   "horse": {
                     "id": 1,
-                    "name": "Thunder"
+                    "name": "BREAK"
                   }
                 }
               ],
@@ -131,12 +131,12 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
               "test": "2-1 (SHORT NAME)",
               "riders": [
                 {
-                  "id": 10,
+                  "id": 1,
                   "name": "Alice",
-                  "time_start": "08:00",
+                  "time_start": "08:50",
                   "horse": {
-                    "id": 2,
-                    "name": "Lightning"
+                    "id": 1,
+                    "name": "BREAK"
                   }
                 }
               ],
@@ -146,6 +146,69 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                   "position": "B"
                 }
               ]
+            },
+            {
+              "number": "1-2",
+              "name": "Jumping Area B",
+              "duration_minute": 4,
+              "test": "2-1 (SHORT NAME)",
+              "riders": [
+                {
+                  "id": 1,
+                  "name": "Alice",
+                  "time_start": "08:50",
+                  "horse": {
+                    "id": 1,
+                    "name": "BREAK"
+                  }
+                }
+              ],
+              "judges": [
+                {
+                  "name": "Maria",
+                  "position": "B"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "id": 4,
+          "number": "asd",
+          "name": "asd",
+          "duration_minute": 5,
+          "test": "BD1",
+          "riders": [
+            {
+              "id": 1,
+              "name": "Jane Doe",
+              "phone": "123-456-7890",
+              "email": "jane.doe@example.com",
+              "no_fei": "FEI456",
+              "emergency_name": "Emergency Contact",
+              "emergency_phone": "987-654-3210",
+              "stable_name": "Stable ABC",
+              "trainer_name": "Trainer XYZ",
+              "user_id": 1,
+              "horse": {
+                "id": 2,
+                "name": "Electric"
+              },
+              "rider_entry_number": 6,
+              "time": 13
+            }
+          ],
+          "judges": [
+            {
+              "id": 1,
+              "class_id": 4,
+              "ring_name": "Bell Center",
+              "name": "John Deer",
+              "ring_position": "H",
+              "createdAt": "2024-02-29T02:03:43.457Z",
+              "updatedAt": "2024-02-29T02:03:43.457Z"
             }
           ]
         }
