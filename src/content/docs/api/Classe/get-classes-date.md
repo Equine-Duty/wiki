@@ -33,6 +33,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
             "name": "Jumping Area A",
             "duration_minute": 3,
             "test": "1-1 (SHORT NAME)",
+            "rider_entry_number": 1,
             "riders": [
               {
                 "id": 1,
@@ -68,6 +69,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                 "id": 1,
                 "name": "Alice",
                 "time_start": "08:50",
+                "rider_entry_number": 1,
                 "horse": {
                   "id": 1,
                   "name": "BREAK"
@@ -91,6 +93,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                 "id": 1,
                 "name": "Alice",
                 "time_start": "08:50",
+                "rider_entry_number": 1,
                 "horse": {
                   "id": 1,
                   "name": "BREAK"
@@ -119,6 +122,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
             "id": 1,
             "name": "Jane Doe",
             "time_start": "-00:00 AM",
+            "rider_entry_number": 1,
             "horse": {
               "id": 2,
               "name": "Electric"
@@ -167,6 +171,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                   "id": 1,
                   "name": "Bob",
                   "time_start": "08:00",
+                  "rider_entry_number": 1,
                   "horse": {
                     "id": 1,
                     "name": "BREAK"
@@ -197,6 +202,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                   "id": 1,
                   "name": "Alice",
                   "time_start": "08:50",
+                  "rider_entry_number": 1,
                   "horse": {
                     "id": 1,
                     "name": "BREAK"
@@ -220,6 +226,7 @@ description: Route pour obtenir une classe depuis un show et sa date. Pour organ
                   "id": 1,
                   "name": "Alice",
                   "time_start": "08:50",
+                  "rider_entry_number": 1,
                   "horse": {
                     "id": 1,
                     "name": "BREAK"
