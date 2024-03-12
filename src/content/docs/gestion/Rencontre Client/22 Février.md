@@ -43,9 +43,9 @@ Pour l’horaire, quel sont les éléments importants à afficher? 
 
 - Noms des juges, très importants. Conditionnel pour les lignes à droite (Lignes avec les lettres en haut). En partant de la gauche, important jusqu’à la ligne test en l’incluant. Possible de prendre un peu de liberté pour l’affichage des noms de juge, rendre ca beau. Visibilité plus importante. 
 
-Quel sont les éléments nécessaires à compter pour les bundles? (Hay, chipping, box et stall?) 
+Quel sont les éléments nécessaires à compter pour les bundles? (Hay, chiving, box et stall?) 
 
-- Hay, chipping, box, stall, plus un texte pour écrire du texte de plus. 
+- Hay, chiving, box, stall, plus un texte pour écrire du texte de plus. 
 
 C’est quoi QualDiv dans la facture ? 
 

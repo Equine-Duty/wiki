@@ -44,7 +44,7 @@ Route pour recevoir un show par son id pour un un organisateur.
       "show_fees": {
         "id": 1,
         "hay": 50,
-        "chipping": 30,
+        "chiving": 30,
         "permanent_stall_per_day": 15,
         "temp_stall_per_day": 10,
         "tack_stall_per_day": 5,

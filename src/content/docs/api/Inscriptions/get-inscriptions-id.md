@@ -27,7 +27,7 @@ Route pour recevoir une inscription par son id.
     "nb_stalls": 2,
     "nb_tack_stalls": 1,
     "nb_hay_bale": 5,
-    "nb_chipping_bags": 3,
+    "nb_chiving_bags": 3,
     "stall_type": "PERMANENT",
     "has_payed": false,
     "invoice_number": null,

@@ -34,7 +34,7 @@ Route pour s'inscrire à un concours
     `nb_stalls=[int]`<br>
     `nb_tack_stalls=[int]`<br>
     `nb_hay_bale=[int]`<br> 
-    `nb_chipping_bags=[int]`<br>
+    `nb_chiving_bags=[int]`<br>
     `show_asked_codes=[object or null]`<br>
     `nb_days=[int]`<br>
     `Shows_Packages=[array {"id": 1, "count": 1}]`<br>
@@ -46,7 +46,7 @@ Route pour s'inscrire à un concours
         "nb_stalls": 45,
         "nb_tack_stalls: 1"
         "nb_hay_bale": 30,
-        "nb_chipping_bags": 43,
+        "nb_chiving_bags": 43,
         "show_asked_codes": {
             "quebec_equestre": "123456789",
             "no_montreal": "qwerty123",
@@ -79,7 +79,7 @@ Route pour s'inscrire à un concours
         "nb_stalls": 1,
         "nb_tack_stalls": 1,
         "nb_hay_bale": 1,
-        "nb_chipping_bags": 1,
+        "nb_chiving_bags": 1,
         "stall_type": "PERMANENT",
         "nb_days": 2,
         "total": 349,

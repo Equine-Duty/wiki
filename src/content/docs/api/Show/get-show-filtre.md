@@ -70,7 +70,7 @@ description: Route pour recevoir touts les shows avec un ou plusieurs filtres ou
         "show_fees": {
           "id": 1,
           "hay": 50,
-          "chipping": 30,
+          "chiving": 30,
           "temp_stall_per_day": 25,
           "permanent_stall_per_day": 25,
           "tack_stall_per_day": 25,
