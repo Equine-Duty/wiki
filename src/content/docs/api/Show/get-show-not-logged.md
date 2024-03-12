@@ -1,7 +1,9 @@
 ---
 title: Recevoir la liste des shows pour un utilisateur non connecté ✅
-description: Route pour recevoir la liste des show pour un utilisateur non connecté
+description: Route pour recevoir la liste des show pour un utilisateur non connecté.
 ---
+
+Route pour recevoir la liste des show pour un utilisateur non connecté.
 
 - **URL**
 

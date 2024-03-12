@@ -1,7 +1,9 @@
 ---
 title: Modifier une classe ✅
-description: Route pour modifier uneclasse
+description: Route pour modifier une classe
 ---
+
+Route pour modifier une classe.
 
 - **URL**
 

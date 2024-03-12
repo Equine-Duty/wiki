@@ -1,6 +1,6 @@
 ---
 title: Supprimer un test ✅
-description: Route pour supprimer un test
+description: Route pour supprimer un test.
 ---
 
 Route pour supprimer un test.

@@ -3,6 +3,8 @@ title: Créer une classe ✅
 description: Route pour créer une nouvelle classe
 ---
 
+Route pour créer une nouvelle classe.
+
 * **URL**
 
   /api/shows/{showId}/classes

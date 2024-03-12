@@ -3,6 +3,8 @@ title: Obtenir une classe depuis son ID ✅
 description: Route pour obtenir une classe depuis son ID
 ---
 
+Route pour obtenir une classe depuis son ID.
+
 - **URL**
 
   /api/shows/{showId}/classes/{classId}

@@ -3,6 +3,8 @@ title: Supprimer une classe ✅
 description: Route pour supprimer une classe.
 ---
 
+Route pour supprimer une classe.
+
 - **URL**
 
   /api/shows/{showId}/classes/{classeId}

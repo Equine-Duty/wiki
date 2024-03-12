@@ -1,7 +1,9 @@
 ---
 title: Recevoir la liste des riders d'un user ✅
-description: Route pour recevoir la liste des riders d'un user
+description: Route pour recevoir la liste des riders d'un user.
 ---
+
+Route pour recevoir la liste des riders d'un user.
 
 - **URL**
 

@@ -1,7 +1,9 @@
 ---
 title: Modifier son mot de passe ✅
-description: Route qu'un user peut utiliser pour modifier son mot de passe
+description: Route qu'un user peut utiliser pour modifier son mot de passe.
 ---
+
+Route qu'un user peut utiliser pour modifier son mot de passe.
 
 * **URL**
 

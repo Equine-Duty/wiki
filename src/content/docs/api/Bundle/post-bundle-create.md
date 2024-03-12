@@ -3,6 +3,8 @@ title: Ajouter un bundle ✅
 description: Route pour ajouter un bundle dans un show
 ---
 
+Route pour ajouter un bundle dans un show.
+
 * **URL**
 
   /api/shows/{showId}/bundles

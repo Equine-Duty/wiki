@@ -3,6 +3,8 @@ title: Obtenir une classe pour un show et une date  ✅
 description: Route pour obtenir une classe depuis un show et sa date. Pour organisateurs et admins.
 ---
 
+Route pour obtenir une classe depuis un show et sa date. **Pour organisateurs et admins.**
+
 - **URL**
 
   /api/shows/adminShows/{showId}/classes/date/{date}

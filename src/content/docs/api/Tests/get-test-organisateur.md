@@ -1,5 +1,5 @@
 ---
-title: Recevoir touts les tests d'un organisateur✅
+title: Recevoir touts les tests d'un organisateur ✅
 ---
 
 Route pour recevoir tous les tests d'un organisateur.

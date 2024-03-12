@@ -1,8 +1,9 @@
 ---
 title: Modifier l'approbation d'une inscription à un classe ✅
+description: Route pour modifier l'approbation d'une inscription à une classe
 ---
 
-Route pour modifier l'approbation d'une inscription à une classe
+Route pour modifier l'approbation d'une inscription à une classe.
 
 - **URL**
 

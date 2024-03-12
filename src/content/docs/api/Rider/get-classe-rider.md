@@ -3,7 +3,7 @@ title: Recevoir la liste des riders d'une classe ✅
 description: Route pour recevoir la liste des riders d'une classe
 ---
 
-Route pour recevoir la liste des riders d'une classe
+Route pour recevoir la liste des riders d'une classe.
 
 - **URL**
 

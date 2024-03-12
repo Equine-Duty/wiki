@@ -1,8 +1,9 @@
 ---
 title: S'inscrire à un concours ✅
+description: Route pour s'inscrire à un concours.
 ---
 
-Route pour s'inscrire à un concours
+Route pour s'inscrire à un concours.
 
 * **URL**
 

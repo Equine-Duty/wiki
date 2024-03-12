@@ -1,6 +1,6 @@
 ---
 title: Modifier un test + marks ✅
-description: Route pour modifier un test et ses marks
+description: Route pour modifier un test et ses marks.
 ---
 
 Route pour modifier un test et ses marks.

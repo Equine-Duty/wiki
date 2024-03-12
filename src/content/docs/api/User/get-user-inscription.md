@@ -3,7 +3,7 @@ title: Recevoir la liste des inscriptions d'un user ✅
 description: Route pour recevoir la liste des inscriptions d'un user.
 ---
 
-Route pour recevoir la liste des users avec ou sans filtre.
+Route pour recevoir la liste des inscriptions d'un user.
 
 - **URL**
 

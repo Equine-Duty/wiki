@@ -3,6 +3,8 @@ title: Obtenir un fichier dans le dossier public 🛑
 description: Route pour obtenir un fichier
 ---
 
+Route pour obtenir un fichier.
+
 - **URL**
 
   /public/{nom du path du fichier sans ssrc/public/documents}

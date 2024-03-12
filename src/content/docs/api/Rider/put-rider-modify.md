@@ -1,7 +1,9 @@
 ---
 title: Modifier un rider ✅
-description: Route pour modifier un rider à un user
+description: Route pour modifier un rider à un user.
 ---
+
+Route pour modifier un rider à un user.
 
 - **URL**
 

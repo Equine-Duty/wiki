@@ -1,7 +1,9 @@
 ---
 title: Suprimer un rider ✅
-description: Route pour supprimer un rider à un user
+description: Route pour supprimer un rider à un user.
 ---
+
+Route pour supprimer un rider à un user.
 
 - **URL**
 

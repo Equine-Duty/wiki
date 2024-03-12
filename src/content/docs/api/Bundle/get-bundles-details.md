@@ -3,6 +3,8 @@ title: Get des bundles ✅
 description: Route pour get les bundle d'un show
 ---
 
+Route pour get les bundle d'un show.
+
 - **URL**
 
   /api/shows/{showId}/bundles

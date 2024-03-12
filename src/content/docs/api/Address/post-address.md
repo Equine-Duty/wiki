@@ -1,5 +1,6 @@
 ---
 title: Créer une nouvelle adresse ✅
+descripton: Route pour créer une nouvelle adresse.
 ---
 
 Route pour créer une nouvelle adresse.

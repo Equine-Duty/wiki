@@ -1,5 +1,6 @@
 ---
 title: Recevoir les adresses d'un user ✅
+description: Route pour recevoir les adresses d'un user
 ---
 
 Route pour recevoir les adresses d'un user

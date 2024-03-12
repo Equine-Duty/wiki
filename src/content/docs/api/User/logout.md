@@ -1,8 +1,9 @@
 ---
 title: Logout ✅
+description: Route pour déconnecter un user.
 ---
 
-Route pour déconnecter un user
+Route pour déconnecter un user.
 
 * **URL**
 

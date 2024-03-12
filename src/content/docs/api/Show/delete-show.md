@@ -2,6 +2,9 @@
 title: Supprimer un show ✅
 description: Route pour supprimer un show.
 ---
+
+Route pour supprimer un show.
+
 * **URL**
 
   /api/shows/{showId}

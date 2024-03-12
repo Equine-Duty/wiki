@@ -3,7 +3,7 @@ title: Ajouter un résultat d'un judge à un rider ✅
 description: Route pour ajouter un résultat avec le judge et rider Id.
 ---
 
-Route pour ajouter un résultat.
+Route pour ajouter un résultat avec le judge et rider id.
 
 - **URL**
 

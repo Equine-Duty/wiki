@@ -3,6 +3,8 @@ title: Recevoir touts les shows ✅
 description: Route pour recevoir touts les shows avec un ou plusieurs filtres ou sans filtre.
 ---
 
+Route pour recevoir touts les shows avec un ou plusieurs filtres ou sans filtre.
+
 - **URL**
 
   /api/shows/loggedUserShows (si aucun parametre, renvoie tous les shows)<br>

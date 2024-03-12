@@ -1,7 +1,9 @@
 ---
 title: Ajouter une classe dans un test ✅
-description: Route pour ajouter une classe dans un test
+description: Route pour ajouter une classe dans un test.
 ---
+
+Route pour ajouter une classe dans un test.
 
 - **URL**
 

@@ -1,7 +1,9 @@
 ---
 title: Modifier le nom, le numéro de téléphone et la date de naissance du user ✅
-description: Route qu'un user peut utiliser pour modifier son nom, son numéro de téléphone et son date de naissance.
+description: Route qu'un user peut utiliser pour modifier son nom, son numéro de téléphone et sa date de naissance.
 ---
+
+Route qu'un user peut utiliser pour modifier son nom, son numéro de téléphone et sa date de naissance.
 
 * **URL**
 

@@ -1,9 +1,9 @@
 ---
 title: Supprime le résultat d'un juge à un rider ✅
-description: Route pour supprimer le résultat d'un juge à un rider par leur Id.
+description: Route pour supprimer le résultat d'un juge à un rider par leur id.
 ---
 
-Route pour recevoir tout les résultats d'un show.
+Route pour supprimer le résultat d'un juge à un rider par leur id.
 
 - **URL**
 

@@ -1,7 +1,9 @@
 ---
 title: Créer un show ✅
-description: Route pour céer un show
+description: Route pour céer un show.
 ---
+
+Route pour céer un show.
 
 * **URL**
 

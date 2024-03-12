@@ -1,7 +1,9 @@
 ---
 title: Recevoir les infos d'un user par son id ✅
-description: Route pour recevoir les infos d'un user
+description: Route pour recevoir les infos d'un user.
 ---
+
+Route pour recevoir les infos d'un user.
 
 * **URL**
 

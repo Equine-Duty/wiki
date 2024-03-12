@@ -1,7 +1,9 @@
 ---
 title: Ajouter un rider ✅
-description: Route pour ajouter un rider à un user
+description: Route pour ajouter un rider à un user.
 ---
+
+Route pour ajouter un rider à un user.
 
 - **URL**
 

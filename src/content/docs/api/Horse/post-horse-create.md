@@ -1,7 +1,9 @@
 ---
 title: Ajouter un cheval ✅
-description: Route pour ajouter un cheval à un user
+description: Route pour ajouter un cheval à un user.
 ---
+
+Route pour ajouter un cheval à un user.
 
 * **URL**
 

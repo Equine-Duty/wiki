@@ -3,6 +3,8 @@ title: Modifie un password  ✅
 description: Route pour changer le mot de passe des users qui viennent de changer de role (Secretaire ou Organisateur) par email et change leur validation email pour true
 ---
 
+Route pour changer le mot de passe des users qui viennent de changer de role (Secretaire ou Organisateur) par email et change leur validation email pour true.
+
 * **URL**
 
   /api/resetpassword

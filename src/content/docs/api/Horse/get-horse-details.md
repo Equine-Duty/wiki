@@ -1,8 +1,9 @@
 ---
 title: Recevoir les détails d'un cheval ✅
+description: Route pour recevoir les détails d'un cheval.
 ---
 
-Route pour recevoir les détails d'un cheval
+Route pour recevoir les détails d'un cheval.
 
 - **URL**
 

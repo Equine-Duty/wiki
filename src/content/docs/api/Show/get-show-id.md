@@ -1,7 +1,9 @@
 ---
 title: Recevoir un show par id ✅
-description: Route pour recevoir un show par son id
+description: Route pour recevoir un show par son id.
 ---
+
+Route pour recevoir un show par son id.
 
 - **URL**
 

@@ -1,5 +1,6 @@
 ---
 title: Recevoir la liste des users ✅
+description: Route pour recevoir la liste des users avec ou sans filtre.
 ---
 
 Route pour recevoir la liste des users avec ou sans filtre.

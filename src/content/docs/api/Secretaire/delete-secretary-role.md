@@ -1,7 +1,9 @@
 ---
 title: Enlever le secrétaire du show✅
-description: Route pour enlever le secrétaire du show
+description: Route pour enlever le secrétaire du show.
 ---
+
+Route pour enlever le secrétaire du show.
 
 * **URL**
 

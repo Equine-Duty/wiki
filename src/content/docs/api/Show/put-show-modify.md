@@ -3,6 +3,8 @@ title: Modifier un show ✅
 description: Route pour modifier un show.
 ---
 
+Route pour modifier un show.
+
 * **URL**
 
   /api/shows/{showId}

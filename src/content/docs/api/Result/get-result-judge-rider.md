@@ -1,9 +1,9 @@
 ---
 title: Recevoir le résultat d'un juge à un rider ✅
-description: Route pour recevoir le résultatsd'un juge à un rider par leur Id.
+description: Route pour recevoir le résultats d'un juge à un rider par leur Id.
 ---
 
-Route pour recevoir tout les résultats d'un show.
+Route pour recevoir le résultats d'un juge à un rider par leur id.
 
 - **URL**
 

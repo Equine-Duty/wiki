@@ -1,8 +1,9 @@
 ---
 title: Login ✅
+description: Route pour connecter un user.
 ---
 
-Route pour connecter un user
+Route pour connecter un user.
 
 * **URL**
 

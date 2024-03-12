@@ -1,5 +1,6 @@
 ---
 title: Recevoir touts les shows d'un organisateur ✅
+description: Route pour recevoir touts les shows qu'un organisateur a créé.
 ---
 
 Route pour recevoir touts les shows qu'un organisateur a créé.

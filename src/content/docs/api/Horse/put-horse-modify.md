@@ -1,7 +1,9 @@
 ---
 title: Modifier un cheval ✅
-description: Route pour modifier un cheval à un user
+description: Route pour modifier un cheval à un user.
 ---
+
+Route pour modifier un cheval à un user.
 
 * **URL**
 

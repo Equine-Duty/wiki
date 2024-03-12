@@ -3,6 +3,8 @@ title: Suprimer un cheval ✅
 description: Route pour supprimer un cheval à un user
 ---
 
+Route pour supprimer un cheval à un user.
+
 - **URL**
 
   /api/users/{userId}/horses/{horseId}

@@ -1,5 +1,6 @@
 ---
 title: Register ✅
+description: Route pour ajouter un user.
 ---
 
 Route pour ajouter un user.

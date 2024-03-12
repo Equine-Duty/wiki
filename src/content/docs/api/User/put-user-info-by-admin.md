@@ -1,7 +1,9 @@
 ---
 title: Modifier les infos d'un user par un admin ✅
-description: Modifier les infos d'un user par un admin
+description: Modifier les infos d'un user par un admin.
 ---
+
+Modifier les infos d'un user par un admin.
 
 * **URL**
 

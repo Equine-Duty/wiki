@@ -1,5 +1,6 @@
 ---
 title: Refresh ✅
+description: Route pour refresh un access token.
 ---
 
 Route pour refresh un access token.

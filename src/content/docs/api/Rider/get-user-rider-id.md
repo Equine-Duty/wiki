@@ -1,7 +1,9 @@
 ---
 title: Recevoir un riders d'un user ✅
-description: Route pour recevoir un rider à partir d'un user
+description: Route pour recevoir un rider à partir d'un user.
 ---
+
+Route pour recevoir un rider à partir d'un user.
 
 - **URL**
 

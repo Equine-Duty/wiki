@@ -3,6 +3,8 @@ title: Créer une secretaire ✅
 description: Route pour créer une nouvelle secretaire si le user n'existe pas ou modifier un user pour mettre son role secretaire dans un show. Après le message de validation, envoit un email à l'adresse email envoyer dans le body. Le message lui demande de changer de mot de passe.
 ---
 
+Route pour créer une nouvelle secretaire si le user n'existe pas ou modifier un user pour mettre son role secretaire dans un show. Après le message de validation, envoit un email à l'adresse email envoyer dans le body. Le message lui demande de changer de mot de passe.
+
 * **URL**
 
   /api/shows/{showId}/secretaries
