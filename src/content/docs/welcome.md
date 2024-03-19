@@ -1,6 +1,5 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Equine Duty
 ---
 
-Hello
+Le wiki contient toute la documentation sur les routes d'API, quelques informations qui ont été importante pour le développeemnt ainsi que quelques notes de rencontres pour tout centraliser.
